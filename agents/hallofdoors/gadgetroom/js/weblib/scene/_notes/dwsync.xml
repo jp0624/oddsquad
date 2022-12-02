@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractScene.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274780000000" remote="130670274780000000" Dst="1" />
+<file name="AbstractSceneFactory.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274780000000" remote="130670274780000000" Dst="1" />
+<file name="AbstractSceneManager.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274780000000" remote="130670274780000000" Dst="1" />
+<file name="BasicSceneManager.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274790000000" remote="130670274790000000" Dst="1" />
+<file name="SceneEvent.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274790000000" remote="130670274790000000" Dst="1" />
+<file name="ScenePackage.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274790000000" remote="130670274790000000" Dst="1" />
+<file name="SceneTransitionEventData.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274790000000" remote="130670274790000000" Dst="1" />
+<file name="TransitionSceneManager.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670274800000000" remote="130670274800000000" Dst="1" />
+<file name="AbstractScene.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274780000000" remote="130674684380000000" Dst="1" />
+<file name="AbstractSceneFactory.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274780000000" remote="130674684380000000" Dst="1" />
+<file name="AbstractSceneManager.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274780000000" remote="130674684380000000" Dst="1" />
+<file name="BasicSceneManager.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274790000000" remote="130674684380000000" Dst="1" />
+<file name="SceneEvent.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274790000000" remote="130674684380000000" Dst="1" />
+<file name="ScenePackage.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274790000000" remote="130674684380000000" Dst="1" />
+<file name="SceneTransitionEventData.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274790000000" remote="130674684380000000" Dst="1" />
+<file name="TransitionSceneManager.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670274800000000" remote="130674684390000000" Dst="1" />
+</dwsync>

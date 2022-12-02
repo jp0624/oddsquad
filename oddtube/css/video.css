@@ -1,0 +1,38 @@
+
+#video_player {
+    width: calc(100% - 55px);
+    height: calc(80% - 40px);
+}
+
+#pbs-video-player {
+    width: calc(100% - 45px) !important;
+    height: calc(80% - 40px) !important;
+}
+
+.fullscreen.video #pbs-video-player, .fullscreen.video #video_player {
+    width: 100% !important;
+    height: 100% !important;
+    border: 0;
+}
+
+
+#oddtube_container {
+    top: 8%;
+    position:absolute;
+}
+
+#oddtube_video_tracking {
+    top: calc(86% - 51px);
+    width: 100%;
+    position: relative;
+}
+
+.scrubber-track {
+    width: 80% !important;
+    left: 10%;
+}
+
+#oddtube_video_track {
+    width: calc(85% - 30px);
+    left: 10%;
+}

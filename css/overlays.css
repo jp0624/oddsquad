@@ -1,0 +1,397 @@
+
+/* -----------------------------------------------------------------------------------------------------
+                                     OVERLAYS STARTS
+----------------------------------------------------------------------------------------------------- */
+[data-overlay] {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	/*
+	padding: 60px 0 0;
+	background-size: 100% 100%;
+	*/
+	background-size: cover;
+}
+[data-overlay] > header h3 {
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-align: center;
+	padding: 20px 0;
+	background-image: url(/oddsquad/img/global/title-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 20px;
+}
+[data-overlay="hod"] > header h3 {
+	background-image: url(/oddsquad/img/global/title-bg02.png);
+}
+[data-ovload="createagent"] {
+	position: fixed;
+}
+.page-gameContainer .ov-wrapper .createagent {
+  top: 40px;
+}
+/*
+.odd-squad-tubes,
+.game-page #root  {
+	background-size: 100% 100%;
+	background-image: url(/oddsquad/img/global/bg-03.png);
+	background-color: transparent;
+}
+.overlay-blue {
+	background-image: url(/oddsquad/img/global/bg-03.png);
+}
+*/
+.overlay-soundcheck {
+	background-image: url(../img/soundcheck/bg-01.png);
+	background-size: 100% auto;
+	padding: 0 0;
+}
+/*
+.overlay-green {
+	background-image: none;
+	background-color: transparent;
+}*/
+.overlay-green {
+	background-color: #348341;
+	background-image: url(/oddsquad/img/agents/bg-03.jpg);
+}
+.overlay-purple {
+	background-image: url(/oddsquad/img/global/backgrounds/bg-22.jpg);
+	background-position: 0 -20px;
+}
+.overlay-matchinator {
+	background-image: url(/oddsquad/img/agents/hod/matchinator/main-bg.jpg);
+	background-position: 0 -20px;
+}
+.overlay-villans {
+	background-image: url(/oddsquad/img/global/backgrounds/bg-21.jpg);
+	background-size: cover;
+}
+.overlay-green[data-overlay="hod"] {
+	background-color: #a7a6a2;
+	background-image: url(/oddsquad/img/doors/bg-01.jpg);
+}
+.close-overlay {
+	position: absolute;
+	background-color: #fff;
+	color: rgba(0,0,255,1);
+	padding: 20px 30px;
+	top: 2.5%;
+	right: 2.5%;
+}
+
+
+/* ----- LOADING HEX ----- */
+.loading-hex {
+	height: 817px;
+	width: 817px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -409px;
+	margin-top: -409px;
+	background-image: url(/oddsquad/img/global/overlay-game-hex.png);
+	background-size: cover;
+	z-index: 98;
+    transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+	opacity: 1;
+	
+    transition: all 1000ms ease-in-out;
+    -ms-transition: all 1000ms ease-in-out;
+    -moz-transition: all 1000ms ease-in-out;
+    -webkit-transition: all 1000ms ease-in-out;
+}
+.loading-hex.init-hex-awards,
+.loading-hex.init-hex-alert, 
+.loading-hex.init-hex-agent, 
+.loading-hex.init-hex-doors, 
+.loading-hex.init-hex-wallofagents {
+	background-image: url(/oddsquad/img/agents/agentoverlay-hex.png);
+}
+.loading-hex.init-hex {
+    transform: scale(10) rotate(90deg);
+    -ms-transform: scale(10) rotate(90deg);
+    -moz-transform: scale(10) rotate(90deg);
+    -webkit-transform: scale(10) rotate(90deg);
+	opacity: 0;
+	
+}
+.loading-hex h4 {
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	position: relative;
+	margin-top: -5%;
+	font-size: 80px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #74b05c;
+}
+/* ----- GAME OVERLAY ----- */
+body > [data-overlay],
+[data-overlay="agent"],
+[data-overlay="awards"],
+body:not(.overlay-base) [data-overlay="createagent"],
+[data-overlay="game"],
+[data-overlay="alert"],
+[data-overlay="hod"],
+body:not(.overlay-base) [data-overlay="wallofagents"] {
+
+    transition: all 500ms cubic-bezier(.61,.7,.6,.99);
+    -ms-transition: all 500ms cubic-bezier(.61,.7,.6,.99);
+    -moz-transition: all 500ms cubic-bezier(.61,.7,.6,.99);
+    -webkit-transition: all 500ms cubic-bezier(.61,.7,.6,.99);
+	
+	transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	
+	opacity: 0;
+	overflow: hidden;
+}
+body:not(.overlay-base) [data-overlay="createagent"] {
+	overflow-y: scroll;
+}
+[data-overlay="agent"] > h3,
+[data-overlay="awards"] > h3,
+[data-overlay="game"] > h3,
+[data-overlay="doors"] > h3,
+[data-overlay="wallofagents"] > h3{
+	font-size: 48px;
+	font-size: 1.25em;
+	
+	position: absolute;
+	font-weight: 900;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	top: 5%;
+	text-shadow: 0 0 10px #63f46a;
+}
+.game-wrapper {
+	width: 80%;
+	left: 10%;
+	width: 1026px;
+	left: 50%;
+	margin-left: -513px;
+	height: 100%;
+	position: absolute;
+}
+.game-wrapper section {
+	width: 100%;
+	position: relative;
+	
+	/* changes based on number of games */
+	/* height: 600%; 6 games */
+	height: 200%; /* 2 games */
+}
+.game-wrapper section article {
+	position: absolute;
+	width: 100%;
+	
+	/* changes based on number of games */
+	/* height: 16.66%; 6 games */
+	height: 50%; /* 2 games */
+}
+.game-wrapper section article:nth-child(1) {
+	transform: translateX(0) translateY(0%) translateZ(0px);
+	-ms-transform: translateX(0) translateY(0%) translateZ(0px);
+	-moz-transform: translateX(0) translateY(0%) translateZ(0px);
+	-webkit-transform: translateX(0) translateY(0%) translateZ(0px);
+}
+.game-wrapper section article:nth-child(2) {
+	transform: translateX(0) translateY(100%) translateZ(0px);
+	-ms-transform: translateX(0) translateY(100%) translateZ(0px);
+	-moz-transform: translateX(0) translateY(100%) translateZ(0px);
+	-webkit-transform: translateX(0) translateY(100%) translateZ(0px);
+}
+.game-wrapper section article:nth-child(3) {
+	transform: translateX(0) translateY(200%) translateZ(0px);
+	-ms-transform: translateX(0) translateY(200%) translateZ(0px);
+	-moz-transform: translateX(0) translateY(200%) translateZ(0px);
+	-webkit-transform: translateX(0) translateY(200%) translateZ(0px);
+}
+.game-wrapper section article:nth-child(4) {
+	transform: translateX(0) translateY(300%) translateZ(0px);
+	-ms-transform: translateX(0) translateY(300%) translateZ(0px);
+	-moz-transform: translateX(0) translateY(300%) translateZ(0px);
+	-webkit-transform: translateX(0) translateY(300%) translateZ(0px);
+}
+.game-wrapper section article:nth-child(5) {
+	transform: translateX(0) translateY(400%) translateZ(0px);
+	-ms-transform: translateX(0) translateY(400%) translateZ(0px);
+	-moz-transform: translateX(0) translateY(400%) translateZ(0px);
+	-webkit-transform: translateX(0) translateY(400%) translateZ(0px);
+}
+.game-wrapper section article:nth-child(6) {
+	transform: translateX(0) translateY(500%) translateZ(0px);
+	-ms-transform: translateX(0) translateY(500%) translateZ(0px);
+	-moz-transform: translateX(0) translateY(500%) translateZ(0px);
+	-webkit-transform: translateX(0) translateY(500%) translateZ(0px);
+}
+[data-overlay="game"] h3 {
+	width: 100%;
+	text-align: center;
+	margin-top: 2%;
+	height: 4%;
+	font-size: 48px;
+	font-weight: 900;
+	text-transform: uppercase;
+	
+	/*text-stroke: 10px rgba(255,255,255,0.25);*/
+	text-shadow: 0 0 10px rgba(255,255,255,0.25), 0 0 10px rgba(255,255,255,0.25), 0 0 10px rgba(255,255,255,0.25), 0 0 10px rgba(255,255,255,0.25), 0 0 10px rgba(255,255,255,0.25), 0 0 10px rgba(255,255,255,0.25);
+}
+[data-overlay="game"] .iframe-wrapper {
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 10px;
+	float: left;
+	padding: 10px;
+	
+	position: absolute;
+	overflow: hidden;
+	height: 80%;	
+	height: 777px;
+	
+	top: 10%;
+	width: 100%;
+	box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.1);
+}
+[data-overlay="game"] .iframe-wrapper iframe {
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgba(0,0,0,0.15);
+	overflow: hidden;
+
+}
+body > .init-overlay [data-overlay],
+[data-overlay="game"].init-overlay,
+[data-overlay="agent"].init-overlay,
+[data-overlay="createagent"].init-overlay,
+[data-overlay="awards"].init-overlay,
+[data-overlay="alert"].init-overlay,
+[data-overlay="hod"].init-overlay,
+[data-overlay="wallofagents"].init-overlay {
+	opacity: 1;
+	z-index: 11;
+	
+	transform: scale(1);
+	
+	-ms-transform: scale(1);
+	
+	-moz-transform: scale(1);
+	
+	-webkit-transform: scale(1);
+}
+.ov-door,
+.ov-wrapper,
+.ov-alert-wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding-top: 40px;
+	top: 0;
+	left: 0;
+}
+.game-page .ov-wrapper,
+.page-gameContainer .ov-wrapper {
+	z-index: 9999;
+}
+.ov-wrapper {
+	z-index: 998;
+}
+.ov-door {
+	z-index: 999;
+	opacity: 0.25;
+}
+.ov-alert-wrapper {
+	z-index: 99;
+}
+[data-overlay="alert"].init-overlay {
+	z-index: 998;
+}
+
+/* ----- WALL OF AGENTS ----- */
+[data-overlay="wallofagents"] .agents-wrapper,
+.overlay.overlay-villans .villans-wrapper {
+	margin-top: 50px;
+}
+.agents-wrapper .btn-green {
+	width: 500px;
+	bottom: 20%;
+	position: absolute;
+	left: 50%;
+	margin-left: -255px;
+	z-index: 100;
+}
+/* -------------------------------------------------
+	               OVERLAYS ENDS
+------------------------------------------------- */
+
+[data-overlay="hod"] nav a.btn-next,
+[data-overlay="hod"] nav a.btn-prev {
+	font-size: 4em;
+	color: #fff;
+	top: 50%;
+	position: absolute;
+	z-index: 5;
+}
+[data-overlay="hod"] nav a.btn-next {
+	right: 5%;
+}
+[data-overlay="hod"] nav a.btn-prev {
+	left: 5%;
+}
+[data-overlay="hod"] nav a.btn-next i:before {
+	content: "\e60a";
+}
+[data-overlay="hod"] nav a.btn-prev i:before {
+	content: "\e60b";
+}
+
+[data-overlay="awards"] .awardsNav .btn-close,
+[data-overlay="doors"] .doorsNav .btn-close {
+	top: 1%;
+	right: 2.5%;
+}
+
+
+.btn-close-door,
+.btn-close {
+	float: left;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	text-transform: uppercase;
+	z-index: 99;
+	color: #fff;
+	font-size: 28px;
+	
+	padding: 5px 30px;
+	font-weight: 900;
+	
+	background-image: url(/oddsquad/img/global/close-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.overlay-soundcheck .btn-close,
+[data-overlay="hod"] .btn-close,
+.btn-close-door {
+	background-image: url(/oddsquad/img/global/close-bg02.png);
+}
+.btn-close-door i,
+.btn-close i {
+	margin-left: 10px;
+	font-size: 24px;
+}
+nav a.btn-close-door i:before,
+nav a.btn-close i:before {
+	content: "\e604";
+}

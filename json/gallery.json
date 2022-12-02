@@ -1,0 +1,46 @@
+{
+    "gallery": [
+        {
+            "name": "Hydroclops",
+            "src": "/img/agents/hod/gallery/picture-01.png",
+			"hashs": "hydroclops",
+			"bgnum": 26
+        },
+        {
+            "name": "Soundcheck",
+            "src": "/img/agents/hod/gallery/picture-02.png",
+			"hashs": "soundcheck",
+			"bgnum": 28
+        },
+        {
+            "name": "jackalopes",
+            "src": "/img/agents/hod/gallery/picture-03.png",
+			"hashs": "jackalope, dinnertime",
+			"bgnum": 29
+        },
+        {
+            "name": "Agent Orson",
+            "src": "/img/agents/hod/gallery/picture-04.png",
+			"hashs": "orson",
+			"bgnum": 30
+        },
+        {
+            "name": "Ms O, Unicorns",
+            "src": "/img/agents/hod/gallery/picture-05.png",
+			"hashs": "mso,unicorns",
+			"bgnum": 25
+        },
+        {
+            "name": "Olives Lunch",
+            "src": "/img/agents/hod/gallery/picture-06.png",
+			"hashs": "olive,lunch",
+			"bgnum": 27
+        },
+        {
+            "name": "Oddstaward",
+            "src": "/img/agents/hod/gallery/picture-07.png",
+			"hashs": "oddstaward",
+			"bgnum": 31
+        }
+    ]
+}

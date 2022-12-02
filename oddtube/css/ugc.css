@@ -1,0 +1,93 @@
+.bgBox {
+  position:absolute;
+
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  z-index: -10;
+
+
+  overflow: hidden;
+}
+
+.bgBox .bg {
+  background-image: url('../img/ugc/PaperBG7.jpg');
+  background-size:cover;
+  left:5px;
+  top:5px;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -border-radius: 30px;
+}
+
+.bgBox div {
+  background-size: 100% 100%;
+  position:absolute;
+}
+
+.bgBox .tl {
+  left:-2px;
+  top:-2px;
+  width:48px;
+  height:49px;
+  background-image: url("../img/ugc/border/border_tl.png")
+}
+
+.bgBox .t {
+  top:-2px;
+  left: 46px;
+  width: calc(100% - 84px);
+  height: 49px;
+  background-image: url("../img/ugc/border/border_t.png")
+}
+
+.bgBox .tr {
+  right:-2px;
+  top:-2px;
+  width:40px;
+  height:49px;
+  background-image: url("../img/ugc/border/border_tr.png")
+}
+
+.bgBox .bl {
+  left:-2px;
+  bottom:-2px;
+  width:48px;
+  height: 51px;
+  background-image: url("../img/ugc/border/border_bl.png")
+}
+
+.bgBox .r {
+  right:-2px;
+  top:47px;
+  width: 40px;
+  height: calc(100% - 96px);
+  background-image: url("../img/ugc/border/border_r.png");
+}
+
+.bgBox .b {
+  left: 46px;
+  bottom: -2px;
+  width: calc(100% - 83px);
+  height: 51px;
+  background-image: url("../img/ugc/border/border_b.png");
+}
+
+.bgBox .br {
+  right: -2px;
+  bottom: -2px;
+  width: 39px;
+  height: 51px;
+  background-image: url("../img/ugc/border/border_br.png");
+}
+
+.bgBox .l {
+  left:-2px;
+  top:47px;
+  width: 48px;
+  height: calc(100% - 96px);
+  background-image: url("../img/ugc/border/border_l.png")
+}

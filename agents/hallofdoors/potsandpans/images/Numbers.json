@@ -1,0 +1,53 @@
+{
+"images": ["images/Numbers.png"],
+"frames": [
+
+    [2, 2, 155, 239, 0, -16, -59], 
+    [1245, 2, 139, 239, 0, -25, -59], 
+    [783, 2, 152, 239, 0, -17, -59], 
+    [937, 2, 152, 239, 0, -18, -59], 
+    [1386, 2, 156, 237, 0, -15, -60], 
+    [316, 2, 154, 239, 0, -16, -59], 
+    [159, 2, 155, 239, 0, -15, -59], 
+    [1091, 2, 152, 239, 0, -15, -59], 
+    [628, 2, 153, 239, 0, -17, -59], 
+    [472, 2, 154, 239, 0, -17, -59], 
+    [1544, 2, 16, 25, 0, -3, -8], 
+    [1562, 2, 14, 26, 0, -6, -8], 
+    [1544, 83, 15, 26, 0, -4, -8], 
+    [1561, 83, 15, 25, 0, -4, -8], 
+    [1544, 29, 16, 25, 0, -3, -8], 
+    [1544, 56, 16, 25, 0, -3, -8], 
+    [1561, 110, 15, 25, 0, -4, -8], 
+    [1544, 111, 15, 25, 0, -4, -8], 
+    [1561, 137, 15, 25, 0, -4, -8], 
+    [1544, 138, 15, 25, 0, -4, -8]
+],
+"animations": {
+    
+        "numbers0":[0], 
+        "numbers1":[1], 
+        "numbers2":[2], 
+        "numbers3":[3], 
+        "numbers4":[4], 
+        "numbers5":[5], 
+        "numbers6":[6], 
+        "numbers7":[7], 
+        "numbers8":[8], 
+        "numbers9":[9], 
+        "numbers_small0":[10], 
+        "numbers_small1":[11], 
+        "numbers_small2":[12], 
+        "numbers_small3":[13], 
+        "numbers_small4":[14], 
+        "numbers_small5":[15], 
+        "numbers_small6":[16], 
+        "numbers_small7":[17], 
+        "numbers_small8":[18], 
+        "numbers_small9":[19]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:e3a7b4c97339d52da9f9d0aa77309482:b60054ac412e0ac849d75b6e1eeac2c1:f7633f52d5614797d66359abf5d9d27e$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

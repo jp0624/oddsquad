@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+#player {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 200px;
+	width: 500px;
+	z-index: 1;
+}
+.plContainer {
+	position: absolute;
+	height: 100%;
+	width: 60%;
+	top: 0;
+	left: 0;
+	
+	border: 5px solid red;
+}
+.plWrapper {
+	position: relative;
+	height: 10%;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+.plItem {
+	position: relative;
+	width: 10%;
+	float: left;
+}
+.iScrollContainer {
+	height: 100%;
+	width: 80%;
+	
+	right: 0;
+	position: relative;
+	position: absolute !important;
+}
+.iScrollContainer ul {
+	float: left;
+}
+.btn-vid {
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 50%;
+    transform: translateX(0%) translateY(-50%) translateZ(0px);
+    -ms-transform: translateX(0%) translateY(-50%) translateZ(0px);
+    -moz-transform: translateX(0%) translateY(-50%) translateZ(0px);
+    -webkit-transform: translateX(0%) translateY(-50%) translateZ(0px);
+
+	z-index: 1;
+}
+
+.btn-vid-prev {
+	left: 20%;
+}
+.btn-vid-next {
+	right: 0%;
+}

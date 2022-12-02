@@ -1,0 +1,70 @@
+<!doctype html>
+<!--[if lt IE 7]>  <html class="ie ie6 lte9 lte8 lte7" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if IE 7]>     <html class="ie ie7 lte9 lte8 lte7" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if IE 8]>     <html class="ie ie8 lte9 lte8" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9 lte9" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if gt IE 9]>  <html data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if !IE]><!--> <html data-pageGenratr="false" data-activestage="2"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+    <title>Hall of Doors . Agents . Odd Squad | PBS KIDS</title>
+	<meta name="viewport" content="initial-scale=1">
+
+<script type="text/javascript" src="//use.typekit.net/nuo4rii.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+<script src = "http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+<!--<script id="require_script" src = "js/weblib/require.custom.js" data-main = "js/main.js"> </script>-->
+<script src= "js/compiled.js"></script>
+
+    <link href="/oddsquad/css/reset.min.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/global.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/obfusco.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/overlays.css" rel="stylesheet" type="text/css" />
+    
+	<link href="/oddsquad/css/mobile-tablet.css" rel="stylesheet" type="text/css" media="(min-width: 900px) and (max-width: 1200px)" />
+	<link href="/oddsquad/css/mobile-phone.css" rel="stylesheet" type="text/css" media="(min-width: 0px) and (max-width: 900px)" />
+</head>
+
+<body class="init-overlay">
+<div class="odd-wrapper">
+    <div data-genratr-wrapper>
+        <div data-overlay="door" class="overlay overlay-purple overlay-obfusco">
+            <nav class="door1-open scrollStart">
+			    <a href="/oddsquad/agents/" class="btn-close"><span>Close<i></i></span></a>
+            </nav>
+            <header>
+				<h3>
+                	Obfusco's Office
+                </h3>
+			</header>
+	<div class="canvas-container">
+		<div class="sizer"></div>
+		<div class="sized">
+           		<img id="loading" src="images/loadingBG.jpg"/>
+				<div id="loadingPercent"> 0% </div>
+			<canvas id="canvas" width="1920" height="1080"></canvas>            </div>
+		</div></div>
+        </div>
+    </div>
+</div>
+<script>
+	$('body').css('display', 'none');
+	$(document).ready(function(){
+		
+		/*! Fades in whole page on load */
+		$('body').fadeIn(250);
+		
+		$('body').flowtype({
+			minimum   : 100,
+			maximum   : 1500,
+			fontRatio : 40
+		});
+	});
+	
+</script>
+<!--#include virtual="/includes/globalinc.html" -->
+
+</body>
+</html>

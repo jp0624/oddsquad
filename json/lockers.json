@@ -1,0 +1,24 @@
+{
+    "lockers": [
+        {
+            "name": "first door",
+            "src": "images/doors/door-01.png",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "second door",
+            "src": "images/doors/door-02.png",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "third door",
+            "src": "images/doors/door-03.png",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "forth door",
+            "src": "images/doors/door-04.png",
+			"desc": "Description to be placed here."
+        }
+    ]
+}

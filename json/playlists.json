@@ -1,0 +1,58 @@
+{
+    "playlists": [
+        {
+            "id": "0",
+            "name": "Case Files",
+            "desc": "Description to be placed here.",
+            "keywords": "full episodes",
+	     "notkeywords": "oddtube",
+            "theme": "purple",
+            "type": ""
+        },
+        {
+            "id": "1",
+            "name": "Meet the Agents",
+            "desc": "Description to be placed here.",
+            "keywords": "agent profiles, recruitment",
+	     "notkeywords": "",
+            "theme": "purple",
+            "type": ""
+        },
+        {
+            "id": "5",
+            "name": "Soundcheck",
+            "desc": "Description to be placed here.",
+            "keywords": "soundcheck",
+	     "notkeywords": "",
+            "theme": "green",
+            "type": "clip"
+        },
+        {
+            "id": "2",
+            "name": "Odd Squad Headquarters",
+            "desc": "Description to be placed here.",
+            "keywords": "welcome",
+	     "notkeywords": "",
+            "theme": "purple",
+            "type": ""
+        },
+        {
+            "id": "3",
+            "name": "Agent Training",
+            "desc": "Description to be placed here.",
+            "keywords": "training videos",
+	     "notkeywords": "",
+            "theme": "purple",
+            "type": ""
+        },
+        {
+            "id": "4",
+            "name": "Odd Reports",
+            "desc": "Description to be placed here.",
+            "keywords": "odd report",
+	     "notkeywords": "",
+            "theme": "purple",
+            "type": ""
+        }
+    ]
+}

@@ -1,0 +1,1360 @@
+
+
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sized a:hover {
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
+.loaded .animated.swing  {
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 500ms;
+	-webkit-transform-origin: bottom right;
+	-webkit-animation-name: swing;
+
+	-moz-animation-duration: 1000ms;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-delay: 500ms;
+	-moz-transform-origin: bottom right;
+	-moz-animation-name: swing;
+
+	-ms-animation-duration: 1000ms;
+	-ms-animation-fill-mode: forwards;
+	-ms-animation-delay: 500ms;
+	-ms-transform-origin: bottom right;
+	-ms-animation-name: swing;
+
+	animation-duration: 1000ms;
+	animation-fill-mode: forwards;
+	animation-delay: 500ms;
+	transform-origin: bottom right;
+	animation-name: swing;
+}
+
+@-webkit-keyframes swing {
+  from {
+  	opacity: 0;
+    -webkit-transform: rotate3d(0, 0, 1, -140deg) scale(0.01);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  55% {
+  	opacity: 1;
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  85% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+  }
+  to {
+  	opacity: 1;
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@-moz-keyframes swing {
+  from {
+  	opacity: 0;
+    -moz-transform: rotate3d(0, 0, 1, -140deg) scale(0.01);
+  }
+  40% {
+    -moz-transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  55% {
+  	opacity: 1;
+    -moz-transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  70% {
+    -moz-transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  85% {
+    -moz-transform: rotate3d(0, 0, 1, -5deg);
+  }
+  to {
+    -moz-transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@-ms-keyframes swing {
+  from {
+  	opacity: 0;
+    -ms-transform: rotate3d(0, 0, 1, -140deg) scale(0.01);
+  }
+  40% {
+    -ms-transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  55% {
+  	opacity: 1;
+    -ms-transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  70% {
+    -ms-transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  85% {
+    -ms-transform: rotate3d(0, 0, 1, -5deg);
+  }
+  to {
+    -ms-transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  from {
+  	opacity: 0;
+    transform: rotate3d(0, 0, 1, -140deg) scale(0.01);
+  }
+  40% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  55% {
+  	opacity: 1;
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  70% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  85% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@-webkit-keyframes swingBAK {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+
+@-webkit-keyframes shake {
+	0%, 100% {
+		-webkit-transform: translateX(-50%) translateZ(1px);
+	}
+	20%, 60% {
+		-webkit-transform: translateX(-48%) translateZ(1px);
+	}
+	40%, 80% {
+		-webkit-transform: translateX(-52%) translateZ(1px);
+	}
+}
+@-webkit-keyframes success {
+	0% {
+		-webkit-transform: translateX(-50%) translateZ(1px) scale(1);
+	}
+	50% {
+		-webkit-transform: translateX(-50%) translateZ(1px) scale(0.5);
+	}
+	100% {
+		-webkit-transform: translateX(-50%) translateZ(1px) scale(0);
+	}
+}
+
+
+@-moz-keyframes shake {
+	0%, 100% {
+		-moz-transform: translateX(-50%) translateZ(1px);
+	}
+	20%, 60% {
+		-moz-transform: translateX(-48%) translateZ(1px);
+	}
+	40%, 80% {
+		-moz-transform: translateX(-52%) translateZ(1px);
+	}
+}
+@-moz-keyframes success {
+	0% {
+		-moz-transform: translateX(-50%) translateZ(1px) scale(1);
+	}
+	50% {
+		-moz-transform: translateX(-50%) translateZ(0px) scale(0.5);
+	}
+	100% {
+		-moz-transform: translateX(-50%) translateZ(0px) scale(0);
+	}
+}
+
+
+@-ms-keyframes shake {
+	0%, 100% {
+		-ms-transform: translateX(-50%) translateZ(1px);
+	}
+	20%, 60% {
+		-ms-transform: translateX(-48%) translateZ(1px);
+	}
+	40%, 80% {
+		-ms-transform: translateX(-52%) translateZ(1px);
+	}
+}
+@-ms-keyframes success {
+	0% {
+		-ms-transform: translateX(-50%) translateZ(1px) scale(1);
+	}
+	50% {
+		-ms-transform: translateX(-50%) translateZ(0px) scale(0.5);
+	}
+	100% {
+		-ms-transform: translateX(-50%) translateZ(0px) scale(0);
+	}
+}
+
+
+@keyframes shake {
+	0%, 100% {
+		transform: translateX(-50%) translateZ(1px);
+	}
+	20%, 60% {
+		transform: translateX(-48%) translateZ(1px);
+	}
+	40%, 80% {
+		transform: translateX(-52%) translateZ(1px);
+	}
+}
+@keyframes success {
+	0% {
+		transform: translateX(-50%) translateZ(1px) scale(1);
+	}
+	50% {
+		transform: translateX(-50%) translateZ(0px) scale(0.5);
+	}
+	100% {
+		transform: translateX(-50%) translateZ(0px) scale(0);
+	}
+}
+
+.login-wrapper.success .keypad-wrapper {
+	animation: success 400ms cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+/* -----------------------------------------------------------------------------------------------------
+                                     KEYTPAD STARTS
+----------------------------------------------------------------------------------------------------- */
+.overlay-olympiaslocker[data-overlay] > header h1, .overlay-olympiaslocker[data-overlay] > header h3 {
+    background-image: url(/oddsquad/img/global/title-bg02.png);
+}
+.overlay-olympiaslocker {
+	background-image: url(/oddsquad/img/olympiaslocker/main-bg.jpg);
+    background-repeat: repeat;
+    background-size: 19.85% 100px;
+    overflow-x: hidden;
+}
+.login-wrapper {
+	overflow-y: scroll;
+	z-index: 10;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+	background-color: rgba(0,0,0,0.5);
+
+    -webkit-transition: all 750ms ease-in 0ms;
+    -moz-transition: all 750ms ease-in 0ms;
+    -ms-transition: all 750ms ease-in 0ms;
+    transition: all 750ms ease-in 0ms;
+
+	user-drag: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.login-wrapper.success {
+    -webkit-transition: all 0ms ease-in 400ms;
+    -moz-transition: all 0ms ease-in 400ms;
+    -ms-transition: all 0ms ease-in 400ms;
+    transition: all 0ms ease-in 400ms;
+	opacity: 0;
+	z-index: -1;
+}
+.popup-wrapper {
+	z-index: -1;
+	opacity: 0;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+	background-color: rgba(0,0,0,0);
+
+    -webkit-transition: all 500ms ease-in 0ms, z-index 10ms step-start 500ms;
+    -moz-transition: all 500ms ease-in 0ms, z-index 10ms step-start 500ms;
+    -ms-transition: all 500ms ease-in 0ms, z-index 10ms step-start 500ms;
+    transition: all 500ms ease-in 0ms, z-index 10ms step-start 500ms;
+
+	user-drag: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.popup-wrapper.active{
+	opacity: 1;
+	z-index: 102;
+	background-color: rgba(0,0,0,0.5);
+
+    -webkit-transition: all 250ms ease-in 100ms, z-index 0ms step-end 0ms;
+    -moz-transition: all 250ms ease-in 0ms, z-index 0ms step-end 0ms;
+    -ms-transition: all 250ms ease-in 0ms, z-index 0ms step-end 0ms;
+    transition: all 250ms ease-in 100ms, z-index 0ms step-end 0ms;
+}
+.login-wrapper.full .keypad-keys li.key-num {
+  pointer-events: none;
+}
+.login-wrapper.error .keypad-keys li {
+  pointer-events: none;
+}
+.keypad-wrapper {
+	width: 30%;
+	z-index: 2;
+	position: relative;
+	top: 10%;
+	left: 50%;
+
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.keypad-wrapper:before,
+.keypad-wrapper:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+
+    background-size: 100% 100%;
+}
+.keypad-wrapper:before {
+	width: 100%;
+	background-image: url(/oddsquad/img/olympiaslocker/glow-blue.png);
+	top: -20%;
+    left: -20%;
+    padding-top: 100%;
+}
+.keypad-wrapper:after {
+	width: 75%;
+	background-image: url(/oddsquad/img/olympiaslocker/glow-orange.png);
+	bottom: -10%;
+    right: -15%;
+    padding-top: 75%;
+}
+.keypad-wrapper > .sizer {
+	padding-top: 130.92105263157894736842105263158%;
+}
+.keypad-wrapper > .sized {
+	background-image: url(/oddsquad/img/olympiaslocker/keypad-bg.png);
+	background-size: 100% 100%;
+}
+
+
+
+
+
+.keypad-wrapper > .sized .btn-watchoddtube {
+    position: absolute;
+    top: 7%;
+    left: -80%;
+    width: 100%;
+
+    -webkit-transition: -webkit-transform 250ms ease-in 150ms;
+    -moz-transition: -moz-transform 250ms ease-in 150ms;
+    -ms-transition: -ms-transform 250ms ease-in 150ms;
+    transition: transform 250ms ease-in 150ms;
+
+    -webkit-transform: scale(0);
+	-webkit-transform-origin: bottom right;
+    -moz-transform: scale(0);
+	-moz-transform-origin: bottom right;
+    -ms-transform: scale(0);
+	-ms-transform-origin: bottom right;
+    transform: scale(0);
+	transform-origin: bottom right;
+
+    opacity: 0;
+}
+.loaded .keypad-wrapper > .sized .btn-watchoddtube {
+
+    opacity: 1;
+
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.keypad-wrapper > .sized .btn-watchoddtube > .sizer {
+	padding-top: 101.48698884758364312267657992565%;
+}
+.keypad-wrapper > .sized .btn-watchoddtube > .sized > img.watch-olympia {
+    width: 53%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble {
+    width: 64%;
+
+    opacity: 1;
+    -webkit-transform: rotate3d(0, 0, 1, -140deg) scale(0.01);
+    -webkit-transform-origin: bottom right;
+}
+.loaded .keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble {
+
+    -webkit-transition: all 0ms ease-in 1000ms;
+    -moz-transition: all 0ms ease-in 1000ms;
+    -ms-transition: all 0ms ease-in 1000ms;
+    transition: all 0ms ease-in 1000ms;
+
+    opacity: 1;
+}
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sizer {
+	padding-top: 65%;
+}
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sized  > img {
+	position: absolute;
+}
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sized .img-watchbubble {
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+}
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sized a {
+	position: absolute;
+	float: left;
+    top: 52%;
+    left: 10%;
+    width: 78%;
+}
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sized a img {
+	position: absolute;
+	width: 100%;
+
+    -webkit-transition: all 250ms ease-in 0ms;
+    -moz-transition: all 250ms ease-in 0ms;
+    -ms-transition: all 250ms ease-in 0ms;
+    transition: all 250ms ease-in 0ms;
+}
+
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sized a img.txt-bubble-hover {
+
+	opacity: 0;
+}
+.keypad-wrapper > .sized .btn-watchoddtube > .sized .watch-bubble > .sized a:hover img.txt-bubble-hover {
+
+	opacity: 1;
+}
+
+
+.keypad-wrapper .display-wrapper {
+	position: absolute;
+    width: 53%;
+    top: 13.25%;
+    left: 22.25%;
+
+    -webkit-transition: all 250ms ease-in 0ms;
+    -moz-transition: all 250ms ease-in 0ms;
+    -ms-transition: all 250ms ease-in 0ms;
+    transition: all 250ms ease-in 0ms;
+}
+.login-wrapper.error .keypad-wrapper {
+	animation: shake 400ms cubic-bezier(.36,.07,.19,.97) forwards;
+	
+	backface-visibility: hidden;
+	perspective: 1000px;
+
+}
+.login-wrapper.error .keypad-wrapper .display-wrapper {
+    box-shadow: inset 0px 0px 20px 12px rgba(255,0,0,1);
+    border-radius: 0.15em;
+
+    -webkit-transition: all 50ms ease-in 0ms;
+    -moz-transition: all 50ms ease-in 0ms;
+    -ms-transition: all 50ms ease-in 0ms;
+    transition: all 50ms ease-in 0ms;
+}
+.login-wrapper.error .keypad-wrapper .display-wrapper > .sized span {
+	color: #ff0000;
+}
+.keypad-wrapper .display-wrapper > .sizer {
+	padding-top: 48.5%;
+}
+.keypad-wrapper .display-wrapper > .sized {
+	overflow: hidden;
+}
+.keypad-wrapper .display-wrapper > .sized em {
+
+    -webkit-transition: all 250ms ease-in 0ms;
+    -moz-transition: all 250ms ease-in 0ms;
+    -ms-transition: all 250ms ease-in 0ms;
+    transition: all 250ms ease-in 0ms;
+
+	border-radius: 0.5em 0.5em 0 0;
+	z-index: 2;
+	color: #fff;
+    padding: 0.05em 2em;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.keypad-wrapper .display-wrapper > .sized em.password-start {
+	background-color: green;
+}
+.login-wrapper.full .keypad-wrapper .display-wrapper > .sized em.password-start {
+    -webkit-transform: translate(-50%, 100%);
+    -moz-transform: translate(-50%, 100%);
+    -ms-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+}
+.keypad-wrapper .display-wrapper > .sized em.password-error {
+	background-color: red;
+}
+.login-wrapper:not(.error) .keypad-wrapper .display-wrapper > .sized em.password-error {
+    -webkit-transform: translate(-50%, 100%);
+    -moz-transform: translate(-50%, 100%);
+    -ms-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+}
+.keypad-wrapper .display-wrapper > .sized span {
+	color: #007d00;
+	font-weight: 900;
+    font-size: 3.5em;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.keypad-wrapper .display-wrapper > .sized span.text {
+    font-size: 1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.keypad-wrapper .display-wrapper > .sized:before {
+	content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    height: 90%;
+    width: 96%;
+    border: 0.1em solid #fff;
+
+    border-radius: 0.15em;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.keypad-wrapper .display-wrapper > .sized:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	height: 100%;
+	width: 100%;
+
+	background-image: url(/oddsquad/img/olympiaslocker/keypad-shine.png);
+	background-size: 100% 100%;
+}
+.keypad-wrapper .keypad-keys {
+	position: absolute;
+    width: 50.25%;
+    height: 47.5%;
+    top: 36%;
+    left: 24%;
+    padding: 0 2%;
+
+}
+.keypad-wrapper .keypad-keys li {
+	position: relative;
+	float: left;
+	width: 29%;
+
+    border: 0.15em solid #fff;
+    margin: 2%;
+    border-radius: 0.25em;
+
+    cursor: pointer;
+}
+.keypad-wrapper .keypad-keys li[data-value="0"] {
+    left: calc(50% - 0.25em);
+
+	-webkit-transform: translate(-50%, 0%);
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+.keypad-wrapper .keypad-keys li,
+.keypad-wrapper .keypad-keys li > .sized,
+.keypad-wrapper .keypad-keys li > .sized span {
+    -webkit-transition: all 50ms ease-in 0ms;
+    -moz-transition: all 50ms ease-in 0ms;
+    -ms-transition: all 50ms ease-in 0ms;
+    transition: all 50ms ease-in 0ms;
+}
+.keypad-wrapper .keypad-keys li > .sized {
+    border-radius: 0.1em;
+	box-shadow: inset -5px -5px 5px rgba(0,0,0,0.25);
+}
+.keypad-wrapper .keypad-keys li:active > .sized {
+	box-shadow: inset 5px 5px 5px rgba(0,0,0,0.25), inset 0px 0px 50px rgba(0,0,0,0.25);
+}
+.keypad-wrapper .keypad-keys li.key-num > .sized {
+	background-color: #1645ff;
+	background: rgb(22,69,255);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxNjQ1ZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiMxNDNmZWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(22,69,255,1) 50%, rgba(20,63,236,1) 51%);
+	background: -webkit-linear-gradient(top,  rgba(22,69,255,1) 50%,rgba(20,63,236,1) 51%);
+	background: linear-gradient(to bottom,  rgba(22,69,255,1) 50%,rgba(20,63,236,1) 51%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1645ff', endColorstr='#143fec',GradientType=0 );
+}
+.login-wrapper.full .keypad-wrapper .keypad-keys li.key-num > .sized {
+    -webkit-transition: all 250ms ease-in 0ms;
+    -moz-transition: all 250ms ease-in 0ms;
+    -ms-transition: all 250ms ease-in 0ms;
+    transition: all 250ms ease-in 0ms;
+}
+.keypad-wrapper .keypad-keys li:active > .sized span {
+	-webkit-transform: translate(-45%, -45%);
+	-moz-transform: translate(-45%, -45%);
+	-ms-transform: translate(-45%, -45%);
+	transform: translate(-45%, -45%);
+}
+.keypad-wrapper .keypad-keys li.key-func {
+	display: none;
+	-webkit-filter: grayscale(0%);
+	background-color: #ff5b5b;
+	background: rgb(255,91,91);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZjViNWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiNmZjMzMzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(255,91,91,1) 50%, rgba(255,51,51,1) 51%);
+	background: -webkit-linear-gradient(top,  rgba(255,91,91,1) 50%,rgba(255,51,51,1) 51%);
+	background: linear-gradient(to bottom,  rgba(255,91,91,1) 50%,rgba(255,51,51,1) 51%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5b5b', endColorstr='#ff3333',GradientType=0 );
+}
+.keypad-wrapper .keypad-keys li.key-func > .sized span {
+    font-size: 1em;
+}
+.keypad-wrapper .keypad-keys li.key-func i:before {
+	font-family: 'FontAwesome';
+}
+.keypad-wrapper .keypad-keys li.key-func[data-value="enter"] i:before {
+    content: "\f04b";
+}
+.keypad-wrapper .keypad-keys li.key-func[data-value="reset"] i:before {
+    content: "\f021";
+}
+
+.keypad-wrapper .keypad-keys li > .sizer {
+	padding-top: 100%;
+}
+.keypad-wrapper .keypad-keys li > .sized span {
+	position: absolute;
+	color: #fff;
+
+	font-weight: 900;
+    font-size: 1.25em;
+
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.keypad-wrapper .keypad-keys li.key-num > span {
+}
+/* -------------------------------------------------
+	               KEYPAD ENDS
+------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------------------------------------
+                                     LOCKER STARTS
+----------------------------------------------------------------------------------------------------- */
+
+.lockers-wrapper {
+	position: absolute;
+    top: 100px;
+	left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+
+	width: 100%;
+	float: left;
+}
+.lockers-wrapper .lockers {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.lockers-wrapper .lockers li {
+	position: relative;
+	width: 20%;
+	float: left;
+}
+.lockers-wrapper .lockers li:nth-child(2) {
+    z-index: 2;
+
+}
+.lockers-wrapper .lockers li > .sizer {
+	padding-top: 485.46099290780141843971631205674%;
+}
+.lockers-wrapper .lockers li > .sized {
+	background-image: url(/oddsquad/img/olympiaslocker/locker-closed.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.lockers-wrapper .lockers li > .sized .locker-inside {
+	background-image: url(/oddsquad/img/olympiaslocker/locker-inside.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    -webkit-transition: all 100ms ease-in 150ms;
+    -moz-transition: all 100ms ease-in 150ms;
+    -ms-transition: all 100ms ease-in 150ms;
+    transition: all 100ms ease-in 150ms;
+
+}
+.lockers-wrapper.locker-open  .lockers li > .sized .locker-inside {
+    -webkit-transition: all 0ms ease-in 450ms;
+    -moz-transition: all 0ms ease-in 450ms;
+    -ms-transition: all 0ms ease-in 450ms;
+    transition: all 0ms ease-in 450ms;
+}
+
+.lockers-wrapper .lockers li > .sized .locker-door {
+	width: 83%;
+	position: absolute;
+	top: 1.5%;
+	left: 8%;
+    z-index: 11;
+
+}
+.lockers-wrapper .lockers li > .sized .locker-keypad {
+	position: absolute;
+    width: 43%;
+    top: 48.25%;
+    left: 14%;
+}
+.lockers-wrapper .lockers li.locker-olympia > .sized .locker-keypad {
+	cursor: pointer;
+    width: 54%;
+    top: 50.25%;
+}
+.lockers-wrapper .lockers li > .sized .locker-name {
+    position: absolute;
+    width: 24%;
+    top: 24%;
+    left: 37%;
+}
+.lockers-wrapper .lockers li > .sized .locker-name .sizer {
+	padding-top: 30%;
+}
+.lockers-wrapper .lockers li.locker-olympia > .sized .locker-name {
+	cursor: pointer;
+    top: 24.5%;
+    left: 37.75%;
+}
+.lockers-wrapper .lockers li.locker-olympia > .sized .locker-name span {
+    color: #47c12b;
+}
+.lockers-wrapper .lockers li > .sized .locker-name span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+    color: #999;
+
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.5em;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.lockers-wrapper .lockers li > .sized .locker-door > .sizer {
+	padding-top: 540.619048%;
+}
+.lockers-wrapper .lockers li > .sized .locker-door .sized {
+	height: 100%;
+	width: 100%;
+	-webkit-perspective: 3000px;
+    -webkit-perspective-origin: 100% 50%;
+
+	-moz-perspective: 3000px;
+    -moz-perspective-origin: 100% 50%;
+
+	-ms-perspective: 3000px;
+    -ms-perspective-origin: 100% 50%;
+
+	perspective: 3000px;
+    perspective-origin: 100% 50%;
+}
+.lockers-wrapper .lockers li > .sized .locker-door .door-panels {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+    -webkit-transition: all 500ms ease-in 0ms;
+    -moz-transition: all 500ms ease-in 0ms;
+    -ms-transition: all 500ms ease-in 0ms;
+    transition: all 500ms ease-in 0ms;
+
+      -webkit-transform-origin: 104.5% 100%;
+         -moz-transform-origin: 104.5% 100%;
+           -ms-transform-origin: 104.5% 100%;
+              transform-origin: 104.5% 100%;
+}
+.lockers-wrapper.locker-open .lockers li > .sized .locker-door .door-panels {
+    -webkit-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+}
+.lockers-wrapper .lockers li > .sized .locker-door .door-panels li {
+	-webkit-transform-origin: 50% 50% 0;
+	-moz-transform-origin: 50% 50% 0;
+	-ms-transform-origin: 50% 50% 0;
+	transform-origin: 50% 50% 0;
+}
+.lockers-wrapper .lockers li > .sized .locker-door .door-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	-webkit-transform: translateZ(25px);
+	-moz-transform: translateZ(25px);
+	-ms-transform: translateZ(25px);
+	transform: translateZ(25px);
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	
+	background-image: url(/oddsquad/img/olympiaslocker/locker-door-front.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.lockers-wrapper .lockers li > .sized .locker-door .door-side {
+	position: absolute;
+ 	-webkit-transform: rotateY(-90deg) translateZ(29px);
+ 	-moz-transform: rotateY(-90deg) translateZ(29px);
+ 	-ms-transform: rotateY(-90deg) translateZ(29px);
+ 	transform: rotateY(-90deg) translateZ(29px);
+
+    width: 54px;
+    height: 100%;
+	background-image: url(/oddsquad/img/olympiaslocker/locker-door-side.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.lockers-wrapper .lockers li > .sized .locker-door .door-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	-webkit-transform: rotateY(180deg) translateZ(25px);
+	-moz-transform: rotateY(180deg) translateZ(25px);
+	-ms-transform: rotateY(180deg) translateZ(25px);
+	transform: rotateY(180deg) translateZ(25px);
+	
+	background-image: url(/oddsquad/img/olympiaslocker/locker-door-back.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+/* -------------------------------------------------
+	               LOCKER ENDS
+------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------------------------------------
+                                     LOCKER ITEMS STARTS
+----------------------------------------------------------------------------------------------------- */
+
+.lockers-wrapper .lockerItem {
+	opacity: 0;
+    -webkit-transition: all 150ms ease-in 200ms;
+    -moz-transition: all 150ms ease-in 200ms;
+    -ms-transition: all 150ms ease-in 200ms;
+    transition: all 150ms ease-in 200ms;
+}
+.lockers-wrapper.locker-open .lockerItem {
+	opacity: 1;
+	z-index: 99;
+    -webkit-transition: all 150ms ease-in 250ms;
+    -moz-transition: all 150ms ease-in 250ms;
+    -ms-transition: all 150ms ease-in 250ms;
+    transition: all 150ms ease-in 250ms;
+}
+.lockers-wrapper .lockerItem.lockerItem-door {
+	opacity: 0;
+    -webkit-transition: all 100ms ease-in 0ms;
+    -moz-transition: all 100ms ease-in 0ms;
+    -ms-transition: all 100ms ease-in 0ms;
+    transition: all 100ms ease-in 0ms;
+}
+.lockers-wrapper.locker-open .lockerItem.lockerItem-door {
+	opacity: 1;
+    -webkit-transition: all 500ms ease-in 300ms;
+    -moz-transition: all 500ms ease-in 300ms;
+    -ms-transition: all 500ms ease-in 300ms;
+    transition: all 500ms ease-in 300ms;
+}
+.lockerItem {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 10%;
+}
+.lockerItem .sized {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.lockerItem .sized canvas {
+	position: absolute;
+	height: 100% !important;
+	width: 100% !important;
+}
+.lockerItem .sized canvas#glassesCanvas,
+.lockerItem .sized canvas#blobCanvas {
+    height: auto !important;
+    bottom: 0;
+}
+
+.lockerItem.lockerItem-booksBlob {
+    top: 19.75%;
+    left: 8.5%;
+    width: 82.5%;
+}
+.lockerItem.lockerItem-booksBlob .sizer {
+	padding-top: 201.31578947368421052631578947368%;
+}
+.lockerItem.lockerItem-booksBlob .sized {
+	background-image: url(/oddsquad/img/olympiaslocker/items/books-blob.png);
+}
+.lockerItem.lockerItem-blob {
+    top: 19.75%;
+    left: 8.5%;
+    left: 1.5%;
+    width: 82.5%;
+
+    top: 40.25%;
+    left: 38.5%;
+    width: 48.5%;
+}
+.lockerItem.lockerItem-blob .sizer {
+	padding-top: 201.31578947368421052631578947368%;
+    padding-top: 136.315789%;
+}
+.lockerItem.lockerItem-blob .sized {
+	/*background-image: url(/oddsquad/img/olympiaslocker/items/books-blob.png);*/
+    overflow: hidden;
+}
+
+.lockerItem.lockerItem-tie {
+    top: 19.75%;
+    left: 8.5%;
+    width: 82.5%;
+    width: 45.5%;
+}
+.lockerItem.lockerItem-tie .sizer {
+	padding-top: 201.31578947368421052631578947368%;
+    padding-top: 199.315789%;
+    padding-top: 351.32743362831858407079646017699%;
+}
+.lockerItem.lockerItem-tie .sized {
+	/*background-image: url(/oddsquad/img/olympiaslocker/items/books-blob.png);*/
+}
+
+.lockerItem.lockerItem-booksTeddy {
+    top: 55%;
+    left: 8.5%;
+    width: 82.5%;
+}
+.lockerItem.lockerItem-booksTeddy .sizer {
+	padding-top: 111.84210526315789473684210526316%;
+}
+.lockerItem.lockerItem-booksTeddy .sized {
+	/*background-image: url(/oddsquad/img/olympiaslocker/items/books-teddy.png);*/
+}
+.lockerItem.lockerItem-calendar {
+    top: 18%;
+    left: 97%;
+    left: 27%;
+    width: 47%;
+}
+.lockerItem.lockerItem-calendar .sizer {
+	padding-top: 203.47222222222222222222222222222%;
+}
+.lockerItem.lockerItem-calendar .sized canvas{
+    height: 90% !important;
+    width: 150% !important;
+	/*background-image: url(/oddsquad/img/olympiaslocker/items/calendar.png);*/
+}
+.lockerItem.lockerItem-centigurps {
+    top: 74%;
+    left: 8.5%;
+    width: 82.5%;
+}
+.lockerItem.lockerItem-centigurps .sizer {
+	padding-top: 118.34061135371179039301310043668%;
+}
+.lockerItem.lockerItem-centigurps .sized {
+	//background-image: url(/oddsquad/img/olympiaslocker/items/centigurps.png);
+}
+.lockerItem.lockerItem-discoball {
+    top: 1.5%;
+    left: 8.5%;
+    width: 82.5%;
+}
+.lockerItem.lockerItem-discoball .sizer {
+	padding-top: 90.393013100436681222707423580786%;
+    padding-top: 122.393013%;
+}
+.lockerItem.lockerItem-discoball .sized {
+	/*background-image: url(/oddsquad/img/olympiaslocker/items/discoball.png);*/
+}
+.lockerItem.lockerItem-glasses {
+    top: 13.3%;
+    left: 23%;
+    width: 67%;
+
+    top: 1.5%;
+
+    top: 13.5%;
+    left: 8.5%;
+    width: 82.5%;
+    overflow: hidden;
+}
+.lockerItem.lockerItem-glasses .sizer {
+	padding-top: 42.222222222222222222222222222222%;
+    padding-top: 118.222222%;
+    padding-top: 48.222222%;
+}
+.lockerItem.lockerItem-glasses .sized {
+	/*background-image: url(/oddsquad/img/olympiaslocker/items/glasses.png);*/
+}
+.lockerItem.lockerItem-holderPencils {
+    top: 34%;
+    //top: 0;
+    left: 77%;
+    left: -26%;
+    width: 124%;
+    z-index: 99;
+}
+.lockerItem.lockerItem-holderPencils .sizer {
+	padding-top: 129.90196078431372549019607843137%;
+	padding-top: 94.186046511627906976744186046512%;
+}
+.lockerItem.lockerItem-holderPencils .sized {
+	background-image: url(/oddsquad/img/olympiaslocker/items/holder-pencils.png);
+	background-image: url(/oddsquad/img/olympiaslocker/items/holder-pencils2.png);
+}
+.lockerItem.lockerItem-photoDance {
+    top: 11%;
+    left: 102%;
+    left: 22%;
+    width: 31%;
+}
+.lockerItem.lockerItem-photoDance .sizer {
+	padding-top: 121.34831460674157303370786516854%;
+}
+.lockerItem.lockerItem-photoDance .sized {
+	background-image: url(/oddsquad/img/olympiaslocker/items/photo-dance.png);
+}
+.lockerItem.lockerItem-photoMso {
+    top: 54%;
+    left: 111%;
+    left: 41%;
+    width: 33%;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+.lockerItem.lockerItem-photoMso .sizer {
+	padding-top: 116.48351648351648351648351648352%;
+	padding-top: 108.37209302325581395348837209302%;
+}
+.lockerItem.lockerItem-photoMso .sized {
+	background-image: url(/oddsquad/img/olympiaslocker/items/photo-mso.png);
+}
+.lockerItem.lockerItem-posterSoundcheck {
+    top: 62%;
+    left: 91%;
+    left: 21%;
+    width: 57%;
+}
+.lockerItem.lockerItem-posterSoundcheck .sizer {
+	padding-top: 193.25153374233128834355828220859%;
+}
+.lockerItem.lockerItem-posterSoundcheck .sized {
+	background-image: url(/oddsquad/img/olympiaslocker/items/poster-soundcheck.png);
+}
+/* -------------------------------------------------
+	               LOCKER ITEMS ENDS
+------------------------------------------------- */
+.popup-wrapper > .popup-item {
+	opacity: 0;
+    z-index: -1;
+    width: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    -moz-transform: translate(-50%, -50%) scale(0);
+    -ms-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+
+    -webkit-transition: all 250ms ease-in 10ms, z-index 0ms step-end 500ms;
+    -moz-transition: all 250ms ease-in 10ms, z-index 0ms step-end 500ms;
+    -ms-transition: all 250ms ease-in 10ms, z-index 0ms step-end 500ms;
+    transition: all 250ms ease-in 10ms, z-index 0ms step-end 500ms;
+}
+.popup-wrapper > .popup-item.photo-poster {
+	width: 31%;
+}
+.popup-wrapper > .popup-item.active {
+	opacity: 1;
+    z-index: 101;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+
+    -webkit-transition: all 500ms ease-in 0ms, z-index 1ms step-start 0ms;
+    -moz-transition: all 500ms ease-in 0ms, z-index 1ms step-start 0ms;
+    -ms-transition: all 500ms ease-in 0ms, z-index 1ms step-start 0ms;
+    transition: all 500ms ease-in 0ms, z-index 1ms step-start 0ms;
+}
+.popup-wrapper > .popup-item > .sizer {
+    padding-top: 77.25%;
+}
+.popup-wrapper > .popup-item > .sized img {
+	width: 100%;
+}
+.popup-wrapper > .popup-item .btn-download {
+	position: absolute;
+    bottom: -5%;
+	left: 50%;
+	width: 50%;
+
+    border: 4px solid #fff;
+    border-radius: 0.5em;
+    background-color: #1000bb;
+
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+.popup-wrapper > .popup-item .btn-download > .sizer {
+    padding-top: 20%;
+}
+.popup-wrapper > .popup-item .btn-download > .sized span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+    white-space: nowrap;
+    font-size: 0.75em;
+
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* -----------------------------------------------------------------------------------------------------
+                                     RESPONSIVE STARTS
+----------------------------------------------------------------------------------------------------- */
+@media (max-width: 1024px) and (min-width: 0px){
+	.overlay.overlay-olympiaslocker[data-overlay] > header h3 {
+		margin-top: 10px;
+	}
+	.overlay.overlay-olympiaslocker[data-overlay="door"] .btn-close {
+    	background-image: none;
+		font-size: 1.25em;
+	}
+	.keypad-wrapper {
+		top: 30%;
+
+		-webkit-transform: translateX(-50);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.lockers-wrapper {
+	    width: 210%;
+	}
+	.keypad-wrapper {
+		width: 50%;
+	}
+
+	.lockers-wrapper .lockers li > .sized .locker-door .door-side {
+		width: 24px;
+	    -webkit-transform: rotateY(-90deg) translateZ(12px);
+	    -moz-transform: rotateY(-90deg) translateZ(12px);
+	    -ms-transform: rotateY(-90deg) translateZ(12px);
+	    transform: rotateY(-90deg) translateZ(12px);
+	}
+	.lockers-wrapper .lockers li > .sized .locker-door .door-front {
+	    -webkit-transform: translateZ(12px);
+	    -moz-transform: translateZ(12px);
+	    -ms-transform: translateZ(12px);
+	    transform: translateZ(12px);
+	}
+	.lockers-wrapper .lockers li > .sized .locker-door .door-back {
+     	-webkit-transform: rotateY(180deg) translateZ(12px);
+     	-moz-transform: rotateY(180deg) translateZ(12px);
+     	-ms-transform: rotateY(180deg) translateZ(12px);
+     	transform: rotateY(180deg) translateZ(12px);
+	}
+	.loaded .keypad-wrapper > .sized .btn-watchoddtube {
+	    top: -18%;
+	    left: 27%;
+	}
+	.popup-wrapper > .popup-item {
+		width: 55%;
+	}
+
+}
+@media (max-width: 900px) and (min-width: 0px){
+  .popup-wrapper > .popup-item .btn-download > .sized span {
+    font-size: 1em;
+  }
+}
+@media (max-width: 600px) and (min-width: 0px){
+	.lockers-wrapper {
+	    width: 260%;
+	    left: 39%;
+	}
+	.keypad-wrapper {
+		width: 60%;
+	}
+	.popup-wrapper > .popup-item {
+		width: 85%;
+	}
+  .popup-wrapper > .popup-item .btn-download > .sized span {
+    font-size: 1.5em;
+  }
+}
+/* -------------------------------------------------
+	               RESPONSIVE ENDS
+------------------------------------------------- */

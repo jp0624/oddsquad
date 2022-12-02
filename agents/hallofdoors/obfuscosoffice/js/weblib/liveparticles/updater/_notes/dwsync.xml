@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="BaseParticleUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275200000000" remote="130670275200000000" Dst="1" />
+<file name="BoxContainerUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275200000000" remote="130670275200000000" Dst="1" />
+<file name="CoreUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275200000000" remote="130670275200000000" Dst="1" />
+<file name="CycleInterpolatePropertyUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275200000000" remote="130670275200000000" Dst="1" />
+<file name="DragUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275200000000" remote="130670275200000000" Dst="1" />
+<file name="ForceUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275200000000" remote="130670275200000000" Dst="1" />
+<file name="InterpolateColourUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275210000000" remote="130670275210000000" Dst="1" />
+<file name="InterpolatePropertyUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275210000000" remote="130670275210000000" Dst="1" />
+<file name="ObjectSeekUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275210000000" remote="130670275210000000" Dst="1" />
+<file name="PropertyRateChangeUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275210000000" remote="130670275210000000" Dst="1" />
+<file name="RandomInitialRotationUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275210000000" remote="130670275210000000" Dst="1" />
+<file name="RandomPropertyInitializer.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275210000000" remote="130670275210000000" Dst="1" />
+<file name="RandomRotationUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275210000000" remote="130670275210000000" Dst="1" />
+<file name="RandomScaleInitializer.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275220000000" remote="130670275220000000" Dst="1" />
+<file name="UpdaterList.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/bert/oddsquad/" local="130670275220000000" remote="130670275220000000" Dst="1" />
+<file name="BaseParticleUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275200000000" remote="130674684750000000" Dst="1" />
+<file name="BoxContainerUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275200000000" remote="130674684750000000" Dst="1" />
+<file name="CoreUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275200000000" remote="130674684750000000" Dst="1" />
+<file name="CycleInterpolatePropertyUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275200000000" remote="130674684750000000" Dst="1" />
+<file name="DragUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275200000000" remote="130674684750000000" Dst="1" />
+<file name="ForceUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275200000000" remote="130674684750000000" Dst="1" />
+<file name="InterpolateColourUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275210000000" remote="130674684750000000" Dst="1" />
+<file name="InterpolatePropertyUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275210000000" remote="130674684750000000" Dst="1" />
+<file name="ObjectSeekUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275210000000" remote="130674684750000000" Dst="1" />
+<file name="PropertyRateChangeUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275210000000" remote="130674684750000000" Dst="1" />
+<file name="RandomInitialRotationUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275210000000" remote="130674684760000000" Dst="1" />
+<file name="RandomPropertyInitializer.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275210000000" remote="130674684760000000" Dst="1" />
+<file name="RandomRotationUpdater.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275210000000" remote="130674684760000000" Dst="1" />
+<file name="RandomScaleInitializer.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275220000000" remote="130674684760000000" Dst="1" />
+<file name="UpdaterList.js" server="ec2-23-23-222-218.compute-1.amazonaws.com/webroot/ernie/oddsquad/" local="130670275220000000" remote="130674684760000000" Dst="1" />
+</dwsync>

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* -----------------------------------------------------------------------------------------------------
+                                     SIDE NAV STARTS
+----------------------------------------------------------------------------------------------------- */
+.createagent-wrapper nav {
+  width: 100%;
+}
+nav a.stage-1 > .sized i .sized > span > i:before {
+  font-family: 'oddsquad-icons';
+  content: "\e510";
+}
+nav a.stage-2 > .sized i .sized > span > i:before {
+  font-family: 'FontAwesome';
+  content: "\f007";
+}
+nav a.stage-3 > .sized i .sized > span > i:before {
+  font-family: 'FontAwesome';
+  content: "\f03e";
+}
+nav a.stage-4 > .sized i .sized > span > i:before {
+  font-family: 'FontAwesome';
+  content: "\f058";
+}
+
+
+/* -------------------------------------------------
+                 SIDE NAV ENDS
+------------------------------------------------- */

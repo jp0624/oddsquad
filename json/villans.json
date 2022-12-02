@@ -1,0 +1,130 @@
+{
+    "villans": [
+        {
+            "name": "Tiny Dancer",
+            "knownfor": "Being a sweet little ballerina, but watch out because she will dance odd into the world.",
+            "lastseen": "Toe stepping in Case File “Jinx”",
+			"img1": "villan-tinydancer.jpg"
+        },
+        {
+            "name": "Jellybean Joe",
+            "knownfor": "Keeping jellybean and estimation secrets.",
+            "lastseen": "With giant jellybean jars in Case File “What Ever Happened to Agent Oz”",
+			"img1": "villan-jellybeanjoe.jpg"
+        },
+        {
+            "name": "Even Steven",
+            "knownfor": "An attraction to even numbers like 2, 4, 6, and so on. Unfortunately, he has also been known to steal them!",
+            "lastseen": "In early Case File “Training Day”",
+			"img1": "villan-evilsteven.jpg"
+        },
+        {
+            "name": "The Puppet Master",
+            "knownfor": "Turning agents into PUPPETS. ‘Nuff said.",
+            "lastseen": "Turning agents into puppets in Case File “Puppet Show”",
+			"img1": "villan-puppetmaster.jpg"
+        },
+        {
+            "name": "Symmetric-Al",
+            "knownfor": "Being perfectly symmetrical. Oh, and also wanting to be the last symmetrical thing in the world!",
+            "lastseen": "In Case File “My Better Half”",
+			"img1": "villan-symetrical.jpg"
+        },
+        {
+            "name": "Shapeshifter",
+            "knownfor": "Being able to turn into anything in a FLASH! A chair, a wall, you name it!",
+            "lastseen": "Hard to tell because she shape shifted into so many things but she was caught in the act last in Case File “The Briefcase”",
+			"img1": "villan-shapeshifter.jpg"
+        },
+        {
+            "name": "Flatam",
+            "knownfor": "Making everything flat.",
+            "lastseen": "Making a mess at Polly Graph’s lemonade stand when he made her ice cubes flat in Case File “Flatastrophe”",
+			"img1": "villan-flatam.jpg"
+        },
+        {
+            "name": "Circle Sue",
+            "knownfor": "Being really into circles.",
+            "lastseen": "Changing her mind on circles in Case File “Soundcheck”. She now really likes triangles but kept her name. Circle Sue just sounds better than Triangle Sue.",
+			"img1": "villan-circlesue.jpg"
+        },
+        {
+            "name": "Noisemaker",
+            "knownfor": "Replacing people’s voices with sounds. Not just any sounds, but super annoying ones like whale noises.",
+            "lastseen": "Causing noise mayhem in Case File “Odd Outbreak”",
+			"img1": "villan-noisemaker.jpg"
+        },
+        {
+            "name": "Equal Evan",
+            "knownfor": "Wanting everything to be equal, so if there is one juice box on one side, he wants another juice box on the other side.",
+            "lastseen": "Marking-up the town in Case File “The One That Got Away”",
+			"img1": "villan-equalevan.jpg"
+        },
+        {
+            "name": "Halvsie Harriet",
+            "knownfor": "Liking only half of everything. She lives her life like that too – she has half a door to her apartment and knit a half sweater - it can’t be very warm.",
+            "lastseen": "Serving half tea in Case File “The Great Grinaldi”",
+			"img1": "villan-halvsieharriet.jpg"
+        },
+        {
+            "name": "Jimmy Jinx",
+            "knownfor": "Creating massive spells of the jinx, where everyone can’t stop saying the same thing. How annoying!",
+            "lastseen": "Causing noise mayhem in Case File “Jinx”",
+			"img1": "villan-jimmyjinx.jpg"
+        },
+        {
+            "name": "Evil Queen",
+            "knownfor": "Using her scepter wand to send people to other kingdoms forever.",
+            "lastseen": "Looking fancy in Case File “Undercover Olive”",
+			"img1": "villan-evilqueen.jpg"
+        },
+        {
+            "name": "Evil Teddy",
+            "knownfor": "Turning perfectly nice teddy bears into evil robots.",
+            "lastseen": "Causing teddy mayhem in Case File 'Assistants Creed'.",
+			"img1": "villan-evilteddy.jpg"
+        },
+        {
+            "name": "Underwater Ulanda",
+            "knownfor": "Taking things and bringing them to the bottom of the ocean.",
+            "lastseen": "Looking water-ready in Case File “Undercover Olive”",
+			"img1": "villan-underwaterulanda.jpg"
+        },
+        {
+            "name": "Archer Achilles",
+            "knownfor": "Being a pro with the bow and arrow. Oh, and she can shoot lasers from her bow!",
+            "lastseen": "Looking suspicious in Case File “Undercover Olive”",
+			"img1": "villan-archerachilles.jpg"
+        },
+        {
+            "name": "Leprechaun Lenny",
+            "knownfor": "Making gorgeous shoes but also turning things into gold, which sounds good, but having gold for feet makes it really hard to walk.",
+            "lastseen": "Looking green in “Undercover Olive”",
+			"img1": "villan-leprechaunlenny.jpg"
+        },
+        {
+            "name": "Odd Todd",
+            "knownfor": "Getting kicked off Odd Squad",
+            "lastseen": "Releasing a Pienado",
+			"img1": "villan-oddtodd.jpg"
+        },
+        {
+            "name": "Tommy Two-Sie",
+            "knownfor": "Being attracted to the number 2. He wears 2 hats, 2 shirts, and 2 fanny packs. Silly!",
+            "lastseen": "Being two-rific in Case File “Mystic Egg Pizza”",
+			"img1": "villan-tommytwoside.jpg"
+        },
+        {
+            "name": "Quarter Quinn",
+            "knownfor": "Being attracted to quarters of everything. She likes them so much that she steals them!",
+            "lastseen": "Being suspicious, packing up her mini-van in Case File “Mystic Egg Pizza”",
+			"img1": "villan-quarterquinn.jpg"
+        },
+        {
+            "name": "Glenn",
+            "knownfor": "Making delicious but very odd drinks. Each flavor of his Glenn Gusher drinks makes you turn into a pattern.",
+            "lastseen": "Turning Otto into polka dots in Case File “Picture Day”!",
+			"img1": "villan-glenn.jpg"
+        }
+    ]
+}

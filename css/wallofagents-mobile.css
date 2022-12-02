@@ -1,0 +1,169 @@
+.woa-wrapper > .sizer {
+	display: none;
+}
+.woa-wrapper.mobile {
+	display: block;
+	z-index: -1;
+	position: fixed;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.woa-wrapper.mobile.selected {
+	z-index: 999;
+}
+
+body .odd-wrapper .woa-wrapper .agents-panel .agent:not(.active):nth-child(1n),
+.agents-panel {
+	position: relative;
+	top: 0;
+	left: 0;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	transform: none;
+
+    -webkit-transition: all 0ms ease-in-out 0ms;
+    -moz-transition: all 0ms ease-in-out 0ms;
+    -ms-transition: all 0ms ease-in-out 0ms;
+    transition: all 0ms ease-in-out 0ms;
+}
+body .agents-panel .agent:nth-child(odd) {
+	margin: 10px 0% 10px 5%;
+	clear: none;
+}
+body .agents-panel .agent,
+body .agents-panel .agent:nth-child(2n),
+body .agents-panel .agent:nth-child(even) {
+	margin: 10px 0% 10px 5%;
+	clear: none;
+}
+.agents-panel .agent {
+	margin: 10px 0% 10px 5%;
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+
+	width: 42.5%;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+.agents-panel .agent .agent-details {
+	display: none;
+}
+.agents-panel .agent .agent-details,
+.agents-panel .agent.active .sized,
+.agents-panel .agent.active,
+.woa-wrapper.mobile .agent-details,
+body.load .woa-wrapper .woa-title,
+body.load * ,
+body.loaded * {
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+.woa-wrapper.mobile .agent-details {
+	z-index: -1;
+	opacity: 0;
+	display: none;
+}
+.woa-wrapper.mobile .agent-details.active {
+	opacity: 1;
+	display: block;
+}
+.agents-panel .agent.active {
+  z-index: 1;
+}
+.agents-panel .agent .agent-photo figure img {
+	border: 5px solid #b91719;
+}
+.landscape .woa-wrapper .woa-title {
+	width: 50%;
+
+}
+.woa-wrapper .woa-title {
+	top: 12%;
+	width: 80%;
+	
+
+    -webkit-transition: all 0ms ease-in-out 0ms;
+    -moz-transition: all 0ms ease-in-out 0ms;
+    -ms-transition: all 0ms ease-in-out 0ms;
+    transition: all 0ms ease-in-out 0ms;
+}
+.agents-panel {
+	top: 22%;
+}
+.woa-wrapper .agent-details figcaption {
+	overflow: scroll;
+}
+.landscape .woa-wrapper .agent-details figcaption dl {
+  position: relative;
+  top: 2.5%;
+  bottom: 2.5%;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+  }
+
+.portrait .btn-close i {
+	font-size: 16px;
+}
+.portrait .overlay-wallofagents .btn-close {
+	right: 0;
+	top: 0.5%;
+	font-size: 18px;
+}
+body .woa-wrapper .agents-panel:after {
+	content: "";
+	position: relative;
+	float: left;
+
+	display: block;
+	width: 100%;
+	height: 40px;
+	clear: both;
+}
+
+
+/*
+html.landscape body:not(.load) .agents-panel .agent:nth-child(2n-1),
+html.landscape body .odd-wrapper .woa-wrapper .agents-panel .agent:not(.active):nth-child(1n),
+html.landscape body:not(.load) .agents-panel .agent:not(.active):nth-child(1n), body:not(.load) .agents-panel .agent:nth-child(1n) {
+*/
+
+	html.landscape body .agents-panel .agent{
+	
+		margin: 10px 1% 10px 1%;
+		width: 23%;
+		clear: none;
+	}
+
+	XXhtml.landscape body .agents-panel .agent:nth-child(1n) {
+		margin: 10px 1% 10px 1%;
+		clear: none;
+	}
+	XXhtml.landscape body .agents-panel .agent:nth-child(4n-1) {
+		clear: both;
+	}
+	html.landscape body .agents-panel .agent:nth-child(4n+1) {
+		clear: both;
+	}
+	html.landscape .agents-panel .agent .agent-photo figure .newAgent span {
+		font-size: 0.75em;
+	}
+	html.landscape .agents-panel .agent .agent-photo figcaption span {
+		font-size: 3em;
+
+  		-webkit-text-stroke: 1px #d52d2d;
+  		-moz-text-stroke: 1px #d52d2d;
+  		-ms-text-stroke: 1px #d52d2d;
+  		text-stroke: 1px #d52d2d;
+	}
+@media (min-width: 600px) {
+}

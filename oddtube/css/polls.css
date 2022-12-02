@@ -1,0 +1,122 @@
+body {
+  font-family: "faront", Arial, Helvetica, sans-serif;
+  margin:30px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+
+}
+
+ul {
+  margin:0px;
+  padding:0px;
+}
+
+
+.pollHeading {
+  font-size:1.9em;
+  font-weight: bold;
+  font-family: "faront", Arial, Helvetica, sans-serif;
+  text-align:left;
+  text-transform: uppercase;
+  width: 90%;
+  margin-top: 8%;
+  margin-left:5%;
+  margin-bottom:1%;
+}
+
+
+.pollAnswers {
+  top:35%;
+  width: calc(100% - 60px);
+  position: absolute;
+}
+
+.pollAnswers li {
+  list-style-type: none;
+  float:left;
+  cursor: pointer;
+  width:20%;
+  padding-bottom: 30px;
+}
+
+.pollAnswers a {
+  width: 100%;
+  position: relative;
+  display:block;
+}
+
+.pollAnswers img {
+  width: 100%;
+  display:block;
+}
+
+.pollAnswers span {
+  font-size: 0.75em;
+    text-transform: uppercase;
+  text-align:center;
+  width: 100%;
+  top:10px;
+  position:relative;
+  display: block;
+}
+
+.mainPage {
+  width: 100%;
+  height: 100%;
+}
+
+.closeButton {
+  position:absolute;
+  right: 20px;
+  top:20px;
+  background-image: url("../img/ugc/CloseIcon.png");
+  width: 42px;
+  height: 42px;
+  cursor:pointer;
+}
+
+.closeButton:hover {
+  background-image: url("../img/ugc/CloseIcon_hover.png");
+}
+
+.votebuttonSizer
+{
+  width:35%;
+  padding-bottom: 14.305555555555555555555555555556%;
+  position: absolute;
+  bottom: 5%;
+  left:32.5%;
+}
+
+
+.voteButton {
+  display:none;
+  background-image: url("../img/polls/btn-vote.png");
+
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-repeat: none;
+  background-size: 100% 100%;
+  position: absolute;
+  cursor:pointer;
+}
+
+.voteButton:hover {
+  background-image: url("../img/polls/btn-vote-hover.png");
+}
+
+.break {
+  clear:both;
+}
+
+.thanksPage {
+  display:none;
+}

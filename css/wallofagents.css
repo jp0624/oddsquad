@@ -1,0 +1,1237 @@
+
+/* -------------------------------------
+	ANIMATIONS START
+------------------------------------- */
+@keyframes wiggle{
+	0% {
+		transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+	25% {
+		transform: translate(-50%, -50%) rotate(-5deg) scale(1.5);
+	}
+	75% {
+		transform: translate(-50%, -50%) rotate(5deg) scale(1.5);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+}
+
+@-webkit-keyframes wiggle{
+	0% {
+		-webkit-transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+	25% {
+		-webkit-transform: translate(-50%, -50%) rotate(-5deg) scale(1.5);
+	}
+	75% {
+		-webkit-transform: translate(-50%, -50%) rotate(5deg) scale(1.5);
+	}
+	100% {
+		-webkit-transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+}
+
+@-moz-keyframes wiggle{
+	0% {
+		-moz-transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+	25% {
+		-moz-transform: translate(-50%, -50%) rotate(-5deg) scale(1.5);
+	}
+	75% {
+		-moz-transform: translate(-50%, -50%) rotate(5deg) scale(1.5);
+	}
+	100% {
+		-moz-transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+}
+
+@-ms-keyframes wiggle{
+	0% {
+		-ms-transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+	25% {
+		-ms-transform: translate(-50%, -50%) rotate(-5deg) scale(1.5);
+	}
+	75% {
+		-ms-transform: translate(-50%, -50%) rotate(5deg) scale(1.5);
+	}
+	100% {
+		-ms-transform: translate(-50%, -50%) rotate(0deg) scale(1);
+	}
+}
+
+/* -------------------------------------
+	AGENTS PANEL DISPLAY START
+------------------------------------- */
+.overlay-wallofagents {
+	background-color: #004eaa;
+	background-image: url('/oddsquad/img/agents/hod/wallofagents/main-bg.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.woa-background,
+.space-hexs {
+	height: 100%;
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* -------------------------------------
+	AGENTS PANEL DISPLAY START
+------------------------------------- */
+.woa-wrapper {
+	height: calc(100% - 40px);
+	min-height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.overlay-wallofagents .btn-close {
+	top: 10px;
+}
+.woa-wrapper::-webkit-scrollbar {
+	width: 10px;
+	background-color: transparent;
+}
+.woa-wrapper::-webkit-scrollbar-track {
+	-webkit-box-shadow: none; 
+	border-radius: 5px;
+}
+.woa-wrapper::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+
+	background: rgb(247,230,8);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left, rgba(247,230,8,1) 1%, rgba(255,208,6,1) 50%, rgba(255,188,3,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(247,230,8,1) 1%,rgba(255,208,6,1) 50%,rgba(255,188,3,1) 100%);
+	background: linear-gradient(to right, rgba(247,230,8,1) 1%,rgba(255,208,6,1) 50%,rgba(255,188,3,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7e608', endColorstr='#ffbc03',GradientType=0 );
+}
+.woa-wrapper > .sizer {
+	padding-top: 50.648414985590778097982708933718%;
+}
+body.load .woa-wrapper .woa-title {
+	opacity: 0;
+	-webkit-transform:  scale(0,0) translate(-50%, -50%) translateZ(0px);
+	-moz-transform:  scale(0,0) translate(-50%, -50%) translateZ(0px);
+	-ms-transform:  scale(0,0) translate(-50%, -50%) translateZ(0px);
+	transform:  scale(0,0) translate(-50%, -50%) translateZ(0px);
+}
+.woa-wrapper .woa-title {
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	z-index: 1;
+	opacity: 1;
+
+	-webkit-transform:  scale(1,1) translate(-50%, -50%) translateZ(0px);
+	-moz-transform:  scale(1,1) translate(-50%, -50%) translateZ(0px);
+	-ms-transform:  scale(1,1) translate(-50%, -50%) translateZ(0px);
+	transform:  scale(1,1) translate(-50%, -50%) translateZ(0px);
+
+    -webkit-transition: all 750ms ease-in 0ms;
+    -moz-transition: all 750ms ease-in 0ms;
+    -ms-transition: all 750ms ease-in 0ms;
+    transition: all 750ms ease-in 0ms;
+
+      -webkit-transform-origin: left top;
+         -moz-transform-origin: left top;
+          -ms-transform-origin: left top;
+           -o-transform-origin: left top;
+              transform-origin: left top;
+}
+.woa-wrapper .woa-title > .sizer {
+    padding-top: 23.529411764705882352941176470588%;
+}
+.woa-wrapper .woa-title > .sized > img {
+	width: 100%;
+	height: 100%;
+}
+.woa-wrapper .woa-title .sized a.btn-toggle {
+	display: none;
+	position: absolute;
+    bottom: -8px;
+    left: 50%;
+    width: 15%;
+
+	-webkit-transform: translate(-50%, 70%);
+	-moz-transform: translate(-50%, 70%);
+	-ms-transform: translate(-50%, 70%);
+	transform: translate(-50%, 70%);
+
+	background-color: #b91719;
+	color: #f9e208;
+	text-align: center;
+    border: 0.11em solid #f9e208;
+}
+.woa-wrapper .woa-title .sized a.btn-toggle span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	font-size: 0.5em;
+	font-weight: bold;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.woa-wrapper .woa-title .sized a.btn-toggle span img {
+	width: 100%;
+}
+.woa-wrapper .agents-panel.selected + .woa-title {
+    -webkit-transition: all 500ms ease-in 0ms;
+    -moz-transition: all 500ms ease-in 0ms;
+    -ms-transition: all 500ms ease-in 0ms;
+    transition: all 500ms ease-in 0ms;
+	z-index: -1;
+	opacity: 0;
+
+}
+.agents-panel {
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-size: 0.5em;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%) translateZ(0px);
+	-moz-transform: translate(-50%, -50%) translateZ(0px);
+	-ms-transform: translate(-50%, -50%) translateZ(0px);
+	transform: translate(-50%, -50%) translateZ(0px);
+
+}
+body.load .agents-panel .agent {
+	opacity: 0;
+}
+.agents-panel.selected .agent:not(.active) {
+	opacity: 0.5;
+	//pointer-events: none;
+}
+.agents-panel.selected .agent:not(.active):hover {
+	opacity: 1;
+}
+.agents-panel .agent {
+	position: absolute;
+	width: 40%;
+	
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+/*
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+
+	-webkit-transform: translate(-50%, -50%) scale(0.275, 0.275) translateZ(0px);
+*/
+    -webkit-transition: -webkit-transform 500ms ease-in 0ms, opacity 500ms ease-in, z-index 0ms ease-in 500ms;
+    -moz-transition: -moz-transform 500ms ease-in 0ms, opacity 500ms ease-in, z-index 0ms ease-in 500ms;
+    -ms-transition: -ms-transform 500ms ease-in 0ms, opacity 500ms ease-in, z-index 0ms ease-in 500ms;
+    transition: transform 500ms ease-in 0ms, opacity 500ms ease-in, z-index 0ms ease-in 500ms;
+
+	-webkit-transform: translate(-50%, -50%) scale(0.005, 0.005) translateZ(0px);
+	-moz-transform: translate(-50%, -50%) scale(0.005, 0.005) translateZ(0px);
+	-ms-transform: translate(-50%, -50%) scale(0.005, 0.005) translateZ(0px);
+	transform: translate(-50%, -50%) scale(0.005, 0.005) translateZ(0px);
+
+}
+.agents-panel .agent.active {
+	z-index: 99;
+
+	-webkit-transform: translate(-10%, -50%) scale(1, 1) translateZ(0px);
+	-moz-transform: translate(-10%, -50%) scale(1, 1) translateZ(0px);
+	-ms-transform: translate(-10%, -50%) scale(1, 1) translateZ(0px);
+	transform: translate(-10%, -50%) scale(1, 1) translateZ(0px);
+
+    -webkit-transition: -webkit-transform 500ms ease-in 0ms, z-index 0ms ease-in 0ms;
+    -moz-transition: -moz-transform 500ms ease-in 0ms, z-index 0ms ease-in 0ms;
+    -ms-transition: -ms-transform 500ms ease-in 0ms, z-index 0ms ease-in 0ms;
+    transition: transform 500ms ease-in 0ms, z-index 0ms ease-in 0ms;
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(1) {
+	-webkit-transform: translate(-155%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-155%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-155%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-155%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(2) {
+	-webkit-transform: translate(-125%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-125%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-125%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-125%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(3) {
+	-webkit-transform: translate(-95%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-95%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-95%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-95%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(4) {
+	-webkit-transform: translate(-65%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-65%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-65%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-65%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(5) {
+	-webkit-transform: translate(-35%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-35%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-35%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-35%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(6) {
+	-webkit-transform: translate(-5%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-5%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-5%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-5%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(7) {
+	-webkit-transform: translate(25%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(25%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(25%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(25%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(8) {
+	-webkit-transform: translate(55%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(55%, -95%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(55%, -95%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(55%, -95%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(9) {
+	-webkit-transform: translate(-155%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-155%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-155%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-155%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(10) {
+	-webkit-transform: translate(-125%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-125%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-125%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-125%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(11) {
+	-webkit-transform: translate(-95%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-95%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-95%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-95%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(12) {
+	-webkit-transform: translate(-65%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-65%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-65%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-65%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(13) {
+	-webkit-transform: translate(-35%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-35%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-35%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-35%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(14) {
+	-webkit-transform: translate(-5%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-5%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-5%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-5%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(15) {
+	-webkit-transform: translate(25%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(25%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(25%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(25%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(16) {
+	-webkit-transform: translate(55%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(55%, -65%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(55%, -65%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(55%, -65%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(17) {
+	-webkit-transform: translate(-155%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-155%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-155%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-155%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(18) {
+	-webkit-transform: translate(-125%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-125%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-125%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-125%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(19) {
+	-webkit-transform: translate(-95%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-95%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-95%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-95%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(20) {
+	-webkit-transform: translate(-65%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-65%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-65%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-65%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(21) {
+	-webkit-transform: translate(-35%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-35%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-35%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-35%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(22) {
+	-webkit-transform: translate(-5%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-5%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-5%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-5%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(23) {
+	-webkit-transform: translate(25%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(25%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(25%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(25%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(24) {
+	-webkit-transform: translate(55%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(55%, -35%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(55%, -35%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(55%, -35%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(25) {
+	-webkit-transform: translate(-155%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-155%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-155%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-155%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(26) {
+	-webkit-transform: translate(-125%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-125%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-125%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-125%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(27) {
+	-webkit-transform: translate(-95%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-95%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-95%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-95%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(28) {
+	-webkit-transform: translate(-65%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-65%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-65%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-65%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(29) {
+	-webkit-transform: translate(-35%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-35%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-35%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-35%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(30) {
+	-webkit-transform: translate(-5%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(-5%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(-5%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(-5%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(31) {
+	-webkit-transform: translate(25%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(25%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(25%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(25%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+body:not(.load) .agents-panel .agent:not(.active):nth-child(32) {
+	-webkit-transform: translate(55%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-moz-transform: translate(55%, -5%) scale(0.275, 0.275) translateZ(0px);
+	-ms-transform: translate(55%, -5%) scale(0.275, 0.275) translateZ(0px);
+	transform: translate(55%, -5%) scale(0.275, 0.275) translateZ(0px);
+}
+.agents-panel .agent:not(.active):nth-child(33),
+.agents-panel .agent:not(.active):nth-child(34) {
+	display: none;
+}
+
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(2n) {
+    -webkit-transition: -webkit-transform 1250ms ease-in 150ms, opacity 1250ms ease-in 150ms, z-index 0ms ease-in 500ms;
+    -moz-transition: -webkit-transform 1250ms ease-in 150ms, opacity 1250ms ease-in 150ms, z-index 0ms ease-in 500ms;
+    -ms-transition: -webkit-transform 1250ms ease-in 150ms, opacity 1250ms ease-in 150ms, z-index 0ms ease-in 500ms;
+    transition: -webkit-transform 1250ms ease-in 150ms, opacity 1250ms ease-in 150ms, z-index 0ms ease-in 500ms;
+}
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(3n),
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(25) {
+    -webkit-transition: -webkit-transform 750ms ease-in 1500ms, opacity 750ms ease-in 1500ms, z-index 0ms ease-in 500ms;
+    -moz-transition: -webkit-transform 750ms ease-in 1500ms, opacity 750ms ease-in 1500ms, z-index 0ms ease-in 500ms;
+    -ms-transition: -webkit-transform 750ms ease-in 1500ms, opacity 750ms ease-in 1500ms, z-index 0ms ease-in 500ms;
+    transition: -webkit-transform 750ms ease-in 1500ms, opacity 750ms ease-in 1500ms, z-index 0ms ease-in 500ms;
+}
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(4n-1) {
+    -webkit-transition: -webkit-transform 1250ms ease-in 1000ms, opacity 1250ms ease-in 1000ms, z-index 0ms ease-in 500ms;
+    -moz-transition: -webkit-transform 1250ms ease-in 1000ms, opacity 1250ms ease-in 1000ms, z-index 0ms ease-in 500ms;
+    -ms-transition: -webkit-transform 1250ms ease-in 1000ms, opacity 1250ms ease-in 1000ms, z-index 0ms ease-in 500ms;
+    transition: -webkit-transform 1250ms ease-in 1000ms, opacity 1250ms ease-in 1000ms, z-index 0ms ease-in 500ms;
+}
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(5n-4) {
+    -webkit-transition: -webkit-transform 750ms ease-in 1250ms, opacity 750ms ease-in 1250ms, z-index 0ms ease-in 500ms;
+    -moz-transition: -webkit-transform 750ms ease-in 1250ms, opacity 750ms ease-in 1250ms, z-index 0ms ease-in 500ms;
+    -ms-transition: -webkit-transform 750ms ease-in 1250ms, opacity 750ms ease-in 1250ms, z-index 0ms ease-in 500ms;
+    transition: -webkit-transform 750ms ease-in 1250ms, opacity 750ms ease-in 1250ms, z-index 0ms ease-in 500ms;
+}
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(6n-1) {
+    -webkit-transition: -webkit-transform 750ms ease-in 750ms, opacity 750ms ease-in 750ms, z-index 0ms ease-in 500ms;
+    -moz-transition: -webkit-transform 750ms ease-in 750ms, opacity 750ms ease-in 750ms, z-index 0ms ease-in 500ms;
+    -ms-transition: -webkit-transform 750ms ease-in 750ms, opacity 750ms ease-in 750ms, z-index 0ms ease-in 500ms;
+    transition: -webkit-transform 750ms ease-in 750ms, opacity 750ms ease-in 750ms, z-index 0ms ease-in 500ms;
+}
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(7n-5) {
+    -webkit-transition: -webkit-transform 1250ms ease-in 500ms, opacity 1250ms ease-in 500ms, z-index 0ms ease-in 500ms;
+    -moz-transition: -webkit-transform 1250ms ease-in 500ms, opacity 1250ms ease-in 500ms, z-index 0ms ease-in 500ms;
+    -ms-transition: -webkit-transform 1250ms ease-in 500ms, opacity 1250ms ease-in 500ms, z-index 0ms ease-in 500ms;
+    transition: -webkit-transform 1250ms ease-in 500ms, opacity 1250ms ease-in 500ms, z-index 0ms ease-in 500ms;
+}
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(13n),
+body:not(.loaded) .agents-panel .agent:not(.active):nth-child(20) {
+    -webkit-transition: -webkit-transform 1000ms ease-in 500ms, opacity 1000ms ease-in 500ms, z-index 0ms ease-in 500ms;
+    -moz-transition: -webkit-transform 1000ms ease-in 500ms, opacity 1000ms ease-in 500ms, z-index 0ms ease-in 500ms;
+    -ms-transition: -webkit-transform 1000ms ease-in 500ms, opacity 1000ms ease-in 500ms, z-index 0ms ease-in 500ms;
+    transition: -webkit-transform 1000ms ease-in 500ms, opacity 1000ms ease-in 500ms, z-index 0ms ease-in 500ms;
+}
+
+.agents-panel .agent .sized {
+
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -ms-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+/*
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+
+      -webkit-transform-origin: center;
+         -moz-transform-origin: center;
+           -o-transform-origin: center;
+              transform-origin: center;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	*/
+  -webkit-perspective: 400px;
+  -moz-perspective: 400px;
+  -ms-perspective: 400px;
+  perspective: 400px;
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -ms-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+}
+.agents-panel .agent.active .sized {
+	/*
+	-webkit-transform: rotateY( 180deg ) translateZ(0px);
+	-moz-transform: rotateY( 180deg ) translateZ(0px);
+	-o-transform: rotateY( 180deg ) translateZ(0px);
+	transform: rotateY( 180deg ) translateZ(0px);
+	*/
+	/*
+	-webkit-transform: rotateY( -180deg );
+	*/
+
+	-webkit-transform: rotateY(180deg) translateZ(0px);
+	-moz-transform: rotateY(180deg) translateZ(0px);
+	-ms-transform: rotateY(180deg) translateZ(0px);
+	transform: rotateY(180deg) translateZ(0px);
+}
+
+.agents-panel .agent.active > .sized .agent-photo {
+	opacity: 0;
+
+    -webkit-transition: all 50ms ease-in-out 500ms;
+    -moz-transition: all 50ms ease-in-out 500ms;
+    -ms-transition: all 50ms ease-in-out 500ms;
+    transition: all 50ms ease-in-out 500ms;
+}
+.agents-panel .agent .agent-photo,
+.agents-panel .agent .agent-details {
+	height: 100%;
+	width: 100%;
+	float: left;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*
+	animation-fill-mode: forwards
+
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+
+      -webkit-transform-origin: center;
+         -moz-transform-origin: center;
+           -o-transform-origin: center;
+              transform-origin: center;
+
+
+	*/
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+}
+.agents-panel .agent .agent-photo {
+	cursor: pointer;
+	overflow: hidden;
+}
+.agents-panel .agent .agent-photo figure {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.agents-panel .agent .agent-photo figure .newAgent {
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	top: 5%;
+	left: 0;
+	-webkit-transform: rotate(-30deg) translate(-10%, -91%) translateZ(0px);
+	-moz-transform: rotate(-30deg) translate(-10%, -91%) translateZ(0px);
+	-ms-transform: rotate(-30deg) translate(-10%, -91%) translateZ(0px);
+	transform: rotate(-30deg) translate(-10%, -91%) translateZ(0px);
+
+	font-size: 2.5em;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: rgba(188,23,24,0.8);
+	
+	background: rgb(247,230,8);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2Y3ZTYwOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZDAwNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmJjMDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(247,230,8,1) 1%, rgba(255,208,6,1) 50%, rgba(255,188,3,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(247,230,8,1) 1%,rgba(255,208,6,1) 50%,rgba(255,188,3,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,230,8,1) 1%,rgba(255,208,6,1) 50%,rgba(255,188,3,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7e608', endColorstr='#ffbc03',GradientType=0 );
+}
+.agents-panel .agent .agent-photo figure .newAgent span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-125%, -35%) translateZ(0px);
+	-moz-transform: translate(-125%, -35%) translateZ(0px);
+	-ms-transform: translate(-125%, -35%) translateZ(0px);
+	transform: translate(-125%, -35%) translateZ(0px);
+	font-size: 1.5em;
+	//line-height: 65px;
+	text-align: center;
+}
+.agents-panel .agent .agent-photo figure img {
+	width: 100%;
+	border: 10px solid #b91719;
+}
+.agents-panel .agent .mustache {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	width: 30%;
+
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%) scale(0);
+	-moz-transform: translate(-50%, -50%) scale(0);
+	-ms-transform: translate(-50%, -50%) scale(0);
+	transform: translate(-50%, -50%) scale(0);
+
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -ms-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+.woa-wrapper.show-mustache .agents-panel .agent.show-stash .mustache {
+	opacity: 1;
+	-webkit-transform: translate(-50%, -50%) scale(1);
+	-moz-transform: translate(-50%, -50%) scale(1);
+	-ms-transform: translate(-50%, -50%) scale(1);
+	transform: translate(-50%, -50%) scale(1);
+}
+.woa-wrapper.show-mustache .agents-panel .agent.show-stash.show-stash-start {
+    box-shadow: 0 0 95px 15px rgba(247,230,8,1);
+}
+.woa-wrapper.show-mustache .agents-panel .agent.show-stash.show-stash-start .agent-photo figure img{
+	border-color: rgba(247,230,8,1);
+}
+
+.woa-wrapper.show-mustache .agents-panel .agent.show-stash.wiggle-stash {
+    box-shadow: 0 0 95px 15px rgba(255,255,255,1);
+}
+.woa-wrapper.show-mustache .agents-panel .agent.show-stash.wiggle-stash .agent-photo figure img{
+	border-color: #fff;
+}
+.woa-wrapper.show-mustache .agents-panel .agent.show-stash.wiggle-stash .mustache,
+.woa-wrapper.show-mustache .agents-panel .agent.show-stash:hover .mustache {
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: normal;
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-name: wiggle;
+	-webkit-animation-delay: 0ms;
+    -webkit-animation-duration: 1000ms;
+
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-direction: normal;
+    -moz-animation-iteration-count: infinite;
+
+    -moz-animation-name: wiggle;
+	-moz-animation-delay: 0ms;
+    -moz-animation-duration: 1000ms;
+
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-direction: normal;
+    -ms-animation-iteration-count: infinite;
+
+    -ms-animation-name: wiggle;
+	-ms-animation-delay: 0ms;
+    -ms-animation-duration: 1000ms;
+
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+    animation-name: wiggle;
+	animation-delay: 0ms;
+    animation-duration: 1000ms;
+	/*
+	-webkit-transform: translate(-50%, -50%) scale(1) rotate(15deg);
+	-moz-transform: translate(-50%, -50%) scale(1) rotate(15deg);
+	-ms-transform: translate(-50%, -50%) scale(1) rotate(15deg);
+	transform: translate(-50%, -50%) scale(1) rotate(15deg);
+	*/
+}
+.woa-wrapper .agents-panel .agent .mustache .sizer {
+	padding-top: 54.214559386973180076628352490421%;
+}
+.woa-wrapper .agents-panel .agent .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/temp-mustache.png);
+	background-size: 100% 100%;
+}
+.woa-wrapper .agents-panel .agent.agent-olive .mustache {
+	left: 52%;
+	top: 46%;
+}
+.woa-wrapper .agents-panel .agent.agent-olive .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-14.png);
+}
+.woa-wrapper .agents-panel .agent.agent-otto .mustache {
+	left: 64%;
+    top: 47%;
+}
+.woa-wrapper .agents-panel .agent.agent-otto .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-3.png);
+}
+.woa-wrapper .agents-panel .agent.agent-oscar .mustache {
+	left: 58%;
+    top: 45%;
+}
+.woa-wrapper .agents-panel .agent.agent-oscar .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-5.png);
+}
+.woa-wrapper .agents-panel .agent.agent-mso .mustache {
+	left: 64%;
+    top: 51%;
+}
+.woa-wrapper .agents-panel .agent.agent-mso .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-22.png);
+}
+.woa-wrapper .agents-panel .agent.agent-oren .mustache {
+	left: 49%;
+    top: 59%;
+}
+.woa-wrapper .agents-panel .agent.agent-oren .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-10.png);
+}
+.woa-wrapper .agents-panel .agent.agent-olaf .mustache {
+	left: 51%;
+    top: 39%;
+}
+.woa-wrapper .agents-panel .agent.agent-olaf .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-15.png);
+}
+.woa-wrapper .agents-panel .agent.agent-obrian .mustache {
+	left: 53%;
+    top: 41%
+}
+.woa-wrapper .agents-panel .agent.agent-obrian .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-12.png);
+}
+.woa-wrapper .agents-panel .agent.agent-obfusco .mustache .sized {
+	background-image: none;
+}
+.woa-wrapper .agents-panel .agent.agent-oddtodd .mustache {
+	left: 53%;
+    top: 48%;
+}
+.woa-wrapper .agents-panel .agent.agent-oddtodd .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-18.png);
+}
+.woa-wrapper .agents-panel .agent.agent-owen .mustache {
+	left: 49.5%;
+    top: 46.5%;
+}
+.woa-wrapper .agents-panel .agent.agent-owen .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-1.png);
+}
+.woa-wrapper .agents-panel .agent.agent-omalley .mustache {
+	left: 57%;
+    top: 45%;
+}
+.woa-wrapper .agents-panel .agent.agent-omalley .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-12.png);
+}
+.woa-wrapper .agents-panel .agent.agent-octavia .mustache {
+	left: 57%;
+    top: 48%;
+}
+.woa-wrapper .agents-panel .agent.agent-octavia .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-19.png);
+}
+.woa-wrapper .agents-panel .agent.agent-orson .mustache {
+	left: 66%;
+    top: 43%;
+}
+.woa-wrapper .agents-panel .agent.agent-orson .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-7.png);
+}
+.woa-wrapper .agents-panel .agent.agent-orchid .mustache {
+	left: 58%;
+    top: 44%;
+}
+.woa-wrapper .agents-panel .agent.agent-orchid .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-25.png);
+}
+.woa-wrapper .agents-panel .agent.agent-oz .mustache {
+	left: 50%;
+	top: 50%;
+}
+.woa-wrapper .agents-panel .agent.agent-oz .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-2.png);
+}
+.woa-wrapper .agents-panel .agent.agent-dro .mustache {
+	left: 56%;
+    top: 57%;
+}
+.woa-wrapper .agents-panel .agent.agent-dro .orson .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-23.png);
+}
+.woa-wrapper .agents-panel .agent.agent-oksana .mustache {
+    left: 64%;
+    top: 53.5%;
+}
+.woa-wrapper .agents-panel .agent.agent-oksana .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-16.png);
+}
+.woa-wrapper .agents-panel .agent.agent-oduffy .mustache {
+	left: 62%;
+    top: 44%;
+}
+.woa-wrapper .agents-panel .agent.agent-oduffy .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-12.png);
+}
+.woa-wrapper .agents-panel .agent.agent-orzac .mustache {
+    left: 63%;
+    top: 43%;
+}
+.woa-wrapper .agents-panel .agent.agent-orzac .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-6.png);
+}
+.woa-wrapper .agents-panel .agent.agent-ocallaghan .mustache {
+    left: 38%;
+    top: 33%;
+}
+.woa-wrapper .agents-panel .agent.agent-ocallaghan .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-12.png);
+}
+.woa-wrapper .agents-panel .agent.agent-odonnell .mustache {
+    left: 41%;
+    top: 40%;
+}
+.woa-wrapper .agents-panel .agent.agent-odonnell .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-12.png);
+}
+.woa-wrapper .agents-panel .agent.agent-coacho .mustache {
+    left: 34%;
+    top: 59%;
+}
+.woa-wrapper .agents-panel .agent.agent-coacho .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-24.png);
+}
+.woa-wrapper .agents-panel .agent.agent-ocean .mustache {
+    left: 68%;
+    top: 48%;
+}
+.woa-wrapper .agents-panel .agent.agent-ocean .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-20.png);
+}
+.woa-wrapper .agents-panel .agent.agent-oona .mustache {
+    left: 38%;
+    top: 54%;
+}
+.woa-wrapper .agents-panel .agent.agent-oona .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-26.png);
+}
+.woa-wrapper .agents-panel .agent.agent-olympia .mustache {
+	left: 63%;
+    top: 43%;
+}
+.woa-wrapper .agents-panel .agent.agent-olympia .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-13.png);
+}
+.woa-wrapper .agents-panel .agent.agent-otis .mustache {
+    left: 64%;
+    top: 35%;
+}
+.woa-wrapper .agents-panel .agent.agent-otis .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-4.png);
+}
+.woa-wrapper .agents-panel .agent.agent-obeth .mustache {
+	left: 44%;
+    top: 53%;
+}
+.woa-wrapper .agents-panel .agent.agent-obeth .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-21.png);
+}
+.woa-wrapper .agents-panel .agent.agent-ohio .mustache {
+	left: 44%;
+    top: 64%;
+}
+.woa-wrapper .agents-panel .agent.agent-ohio .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-17.png);
+}
+.woa-wrapper .agents-panel .agent.agent-opa .mustache {
+	left: 60%;
+    top: 47%;
+}
+.woa-wrapper .agents-panel .agent.agent-opa .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-11.png);
+}
+.woa-wrapper .agents-panel .agent.agent-oriele .mustache {
+	left: 66%;
+    top: 60%;
+}
+.woa-wrapper .agents-panel .agent.agent-oriele .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-9.png);
+}
+.woa-wrapper .agents-panel .agent.agent-orielle .mustache {
+	left: 55%;
+    top: 55%;
+}
+.woa-wrapper .agents-panel .agent.agent-orielle .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-8.png);
+}
+.woa-wrapper .agents-panel .agent.agent-ohlm .mustache {
+	left: 57%;
+    top: 45%;
+}
+.woa-wrapper .agents-panel .agent.agent-ohlm .mustache .sized {
+	background-image: url(/oddsquad/img/agents/hod/wallofagents/mustaches/mustache-2.png);
+}
+.agents-panel .agent .agent-photo figcaption {
+	white-space: nowrap;
+	height: 30%;
+	width: 100%;
+	background-color: rgba(188,23,24,0.8);
+
+	position: absolute;
+	bottom: 0%;
+
+    -webkit-transition: all 250ms ease-in-out 0ms;
+    -moz-transition: all 250ms ease-in-out 0ms;
+    -ms-transition: all 250ms ease-in-out 0ms;
+    transition: all 250ms ease-in-out 0ms;
+
+	-webkit-transform: translate(0%, 100%) translateZ(0px);
+	-moz-transform: translate(0%, 100%) translateZ(0px);
+	-ms-transform: translate(0%, 100%) translateZ(0px);
+	transform: translate(0%, 100%) translateZ(0px);
+}
+.agents-panel .agent .agent-photo:hover figcaption {
+	-webkit-transform: translate(0%, 0%) translateZ(0px);
+	-moz-transform: translate(0%, 0%) translateZ(0px);
+	-ms-transform: translate(0%, 0%) translateZ(0px);
+	transform: translate(0%, 0%) translateZ(0px);
+
+}
+.agents-panel .agent .agent-photo figcaption span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 5em;
+	color: #f9e208;
+	
+	background: -webkit-linear-gradient(#f7e608, #ffd006, #ffbc03) ;
+
+	-webkit-transform: translate(-50%, -50%) translateZ(0px);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px #d52d2d;
+
+	-moz-transform: translate(-50%, -50%) translateZ(0px);
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	-moz-text-stroke: 2px #d52d2d;
+
+	-ms-transform: translate(-50%, -50%) translateZ(0px);
+	-ms-background-clip: text;
+	-ms-text-fill-color: transparent;
+	-ms-text-stroke: 2px #d52d2d;
+
+	transform: translate(-50%, -50%) translateZ(0px);
+	background-clip: text;
+	text-fill-color: transparent;
+	text-stroke: 2px #d52d2d;
+}
+.agents-panel .agent:nth-child(12) .agent-photo figcaption,
+.agents-panel .agent:nth-child(13) .agent-photo figcaption {
+	height: 35%;
+}
+.agents-panel .agent:nth-child(12) .agent-photo figcaption span,
+.agents-panel .agent:nth-child(13) .agent-photo figcaption span {
+	top: 37.5%;
+}
+.woa-wrapper .agent-details {
+	-webkit-transform: rotateY( 180deg ) translateZ(0px);
+	-moz-transform: rotateY( 180deg ) translateZ(0px);
+	-ms-transform: rotateY( 180deg ) translateZ(0px);
+	transform: rotateY( 180deg ) translateZ(0px);
+}
+.woa-wrapper .agent-details .sized,
+.woa-wrapper .agents-panel .agent .agent-details .sized {
+
+	-webkit-transform: rotateY( 0deg ) translateZ(0px);
+	-moz-transform: rotateY( 0deg ) translateZ(0px);
+	-ms-transform: rotateY( 0deg ) translateZ(0px);
+	transform: rotateY( 0deg ) translateZ(0px);
+}
+
+/*------------------------------IE FLIP FIX START */
+.ie .woa-wrapper.desktop .agent.active .agent-details {
+
+	-webkit-transform: rotateY(0deg) translateZ(0px);
+	-moz-transform: rotateY(0deg) translateZ(0px);
+	-ms-transform: rotateY(0deg) translateZ(0px);
+	transform: rotateY(0deg) translateZ(0px);
+}
+.ie .woa-wrapper.desktop .agents-panel .agent.active .agent-details .sized {
+	-webkit-backface-visibility: visible;
+	-moz-backface-visibility: visible;
+	-ms-backface-visibility: visible;
+	backface-visibility: visible;
+
+	-webkit-transform: rotateY(180deg) translateZ(0px);
+	-moz-transform: rotateY(180deg) translateZ(0px);
+	-ms-transform: rotateY(180deg) translateZ(0px);
+	transform: rotateY(180deg) translateZ(0px);
+
+}
+.ie .woa-wrapper.desktop .agent.active .agent-details a.btn-back {
+	-webkit-transform: rotateY(180deg) translateZ(0px);
+	-moz-transform: rotateY(180deg) translateZ(0px);
+	-ms-transform: rotateY(180deg) translateZ(0px);
+	transform: rotateY(180deg) translateZ(0px);
+}
+/*------------------------------IE FLIP FIX END */
+
+.woa-wrapper .agent.active .agent-details {
+	/*
+	-webkit-transform: rotateY( 0deg ) translateZ(0);
+	-moz-transform: rotateY( 0deg ) translateZ(0);
+	-o-transform: rotateY( 0deg ) translateZ(0);
+	transform: rotateY( 0deg ) translateZ(0);
+	*/
+}
+.woa-wrapper .agent-details figcaption {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	height: 100%;
+	width: 100%;
+	background-color: #ae1415;
+	background-image: url("/oddsquad/img/agents/hod/wallofagents/details-bg.gif");
+	box-shadow: 1px 1px 45px 0px rgba(0,0,0,0.5), inset 0px 0px 100px 0px rgba(116,13,14,1), inset 0px 0px 10px 0px rgba(255,140,141,0.5);
+}
+.woa-wrapper .agent-details figcaption dl {
+	position: absolute;
+	top: 50%;
+	left: 0;
+
+	width: 100%;
+	text-transform: uppercase;
+
+	-webkit-transform: translate(0%, -50%) translateZ(0px);
+	-moz-transform: translate(0%, -50%) translateZ(0px);
+	-ms-transform: translate(0%, -50%) translateZ(0px);
+	transform: translate(0%, -50%) translateZ(0px);
+}
+.woa-wrapper .agent-details figcaption dt {
+	float: left;
+	clear: both;
+
+	width: 25%;
+	color: #fff;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.woa-wrapper .agent-details figcaption dt.name {
+	width: 100%;
+	color: #f9e208;
+
+	text-align: center;
+	font-size: 4em;
+	font-weight: 900;
+
+	background: -webkit-linear-gradient(#f7e608, #ffd006, #ffbc03);
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px #d52d2d;
+
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	-moz-text-stroke: 2px #d52d2d;
+
+	-ms-background-clip: text;
+	-ms-text-fill-color: transparent;
+	-ms-text-stroke: 2px #d52d2d;
+
+	background-clip: text;
+	text-fill-color: transparent;
+	text-stroke: 2px #d52d2d;
+}
+.woa-wrapper .agent-details figcaption dd {
+	color: #f9e208;
+	width: 75%;
+	float: left;
+	padding-left: 2.5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.woa-wrapper .agent-details figure {
+	opacity: 0;
+	line-height: 0;
+	display: block;
+	float: left;
+	width: 80%;
+
+	position: absolute;
+	top: 50%;
+	left: calc(-40% + 5px);
+
+	border: 5px solid #b91719;
+	box-shadow: 1px 1px 45px 0px rgba(0,0,0,0.5);
+
+	-webkit-transform: translate(50%, -50%) translateZ(0px);
+	-moz-transform: translate(50%, -50%) translateZ(0px);
+	-ms-transform: translate(50%, -50%) translateZ(0px);
+	transform: translate(50%, -50%) translateZ(0px);
+
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -ms-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+.woa-wrapper .agent-details figure .agentSlides {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.woa-wrapper .agent-details figure .agentSlides .slick-prev,
+.woa-wrapper .agent-details figure .agentSlides .slick-next {
+	z-index: 2;
+}
+.woa-wrapper .agent-details figure .agentSlides .slick-prev {
+    background-image: url(/oddsquad/img/createagent/nav-prev.png);
+    left: 5px;
+}
+.woa-wrapper .agent-details figure .agentSlides .slick-next {
+    background-image: url(/oddsquad/img/createagent/nav-next.png);
+    right: 5px;
+}
+.woa-wrapper .agent.active .agent-details figure {
+	opacity: 1;
+    -webkit-transition: all 250ms ease-in-out 500ms;
+    -moz-transition: all 250ms ease-in-out 500ms;
+    -ms-transition: all 250ms ease-in-out 500ms;
+    transition: all 250ms ease-in-out 500ms;
+
+	-webkit-transform: translate(-50%, -50%) translateZ(0px);
+	-moz-transform: translate(-50%, -50%) translateZ(0px);
+	-ms-transform: translate(-50%, -50%) translateZ(0px);
+	transform: translate(-50%, -50%) translateZ(0px);
+
+}
+.woa-wrapper .agent-details a.btn-back {
+	position: absolute;
+	width: 25%;
+	top: -5%;
+	left: -7.5%;
+    z-index: 1;
+}
+.woa-wrapper .agent-details a.btn-back .sizer {
+	padding-top: 37.209302325581395348837209302326%;
+}
+.woa-wrapper .agent-details a.btn-back .sized {
+	background-image: url('/oddsquad/img/agents/hod/wallofagents/btn-bg.png');
+	background-size: 100% 100%;
+	background-position: center center;
+}
+.woa-wrapper .agent-details a.btn-back .sized span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%) translateZ(0px);
+	-moz-transform: translate(-50%, -50%) translateZ(0px);
+	-ms-transform: translate(-50%, -50%) translateZ(0px);
+	transform: translate(-50%, -50%) translateZ(0px);
+
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	color: #ae1415;
+}
+.woa-wrapper.mobile .agent-details a.btn-back {
+	top: 2.5%;
+	left: 2.5%;
+	z-index: 9999;
+}
+.woa-wrapper .agent-details figure img {
+	width: 100%;
+}
+
+.woa-wrapper.mobile {
+	display: none;
+}
+/* ---------------------------
+	AGENTS PANEL DISPLAY END
+--------------------------- */

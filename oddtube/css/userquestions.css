@@ -1,0 +1,235 @@
+body, html {
+  margin: 0;
+  padding: 0;
+
+  font-family: "faront", Arial, Helvetica, sans-serif;
+  margin:2%;
+  overflow: hidden;
+}
+
+
+input {
+  padding: calc(2% - 10px);
+  margin: 1%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+textarea {
+  padding: 1%;
+  margin: 1%;
+   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+
+textarea, input, button, select { 
+  font-family: inherit; 
+  font-size:1em;
+  line-height: 1.35em;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  line-height: 1.35em;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  line-height: 1.35em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  line-height: 1.35em;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  line-height: 1.35em;
+}
+
+.mainPage {
+  width: 100%;
+  height: 100%;
+  position:relative;
+  line-height: 1em;
+}
+
+.closeButton {
+  position:absolute;
+  right: 3%;
+  top: 4.5%;
+  background-image: url("../img/ugc/CloseIcon.png");
+  width: 6%;
+  height: 8%;
+  background-size: 100% 100%;
+  cursor:pointer;
+}
+
+.closeButton:hover {
+  background-image: url("../img/ugc/CloseIcon_hover.png");
+}
+
+.thanksPage {
+  height: 30%;
+  width:100%;
+  top:35%;
+  position:absolute;
+  border:black;
+  display:none;
+}
+
+label {
+  padding-left: 1%;
+  font-size:  1em;
+  display: none;
+}
+
+#ageAndFirstNameInputHolder {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+
+.questionHead {
+  color:white;
+  text-align:center;
+  width:100%;
+  margin: 0px;
+  padding: 0px
+}
+
+.answerDate {
+   margin: 0px;
+  padding: 0px
+  color:black;
+  text-align:center;
+  width:100%;
+}
+
+.finePrint {
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+  width:100%;
+}
+
+.questionHeading {
+  font-size:1.5em;
+  line-height: 1.5em;
+  font-weight:bold;
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+
+.questionLabel {
+  margin-top: 1%;
+}
+
+.question {
+  width: 100%;
+  clear:both;
+  position:relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2%;
+}
+
+.requiredFieldMissing {
+  background: rgb(255,215,215);
+  color:#666;
+}
+
+.missingField
+{
+  display: none;
+  color: red;
+}
+
+.question textarea {
+  width: 96%;
+  resize:none;
+}
+
+.ageAndFirstName {
+  margin: 0;
+  width: 100%;
+}
+
+#ageAndFirstNameInputHolder .textInput {
+  width: 70%;
+  float:left;
+}
+
+#ageAndFirstNameInputHolder .numberInput {
+  float:right;
+  position:absolute;
+  width: 20%;
+  right: 0%;
+}
+
+.submitButton, .nextButton {
+  opacity:0.25;
+}
+
+.submitButton, .nextButton {
+  -webkit-appearance: none;
+  background:none;
+  background-image:url("../img/userquestions/AskButton.png");
+  background-size: 100% 100%;
+  border:none;
+  left: calc(50% - 125px);
+  position: relative;
+  cursor:pointer;
+}
+
+.submitButton:hover {
+  background-image:url("../img/userquestions/AskButton_Hover.png");
+}
+
+#disclaimer {
+  font-size: 0.7em;
+  margin-top:2%;
+  text-align: center;
+  line-height: 1em;
+}
+
+
+.submitButton, .nextButton  {
+  left: calc(35%);
+
+  padding-top: 12%;
+  width: 30%;
+  margin-top: -2.5%;
+}
+
+.redText {
+  margin: 0;
+  padding: 0;
+  color: red;
+  text-transform: uppercase;
+}
+
+/* Main mobile breakpoint */
+@media(max-width: 500px) {
+
+  .ageAndFirstName .numberInput {
+    width: 30%;
+  }
+
+  .ageAndFirstName .textInput {
+    width: 55%;
+  }
+
+  .textInput, .numberInput {
+    padding: 1%;
+  }
+
+  .submitButton, .nextButton {
+    margin-top: -2.5%;
+  }
+  .closeButton {
+    right: 6%;
+    top: 6%;
+  }
+}

@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?95umm5');
+	src:url('fonts/icomoon.eot?#iefix95umm5') format('embedded-opentype'),
+		url('fonts/icomoon.woff?95umm5') format('woff'),
+		url('fonts/icomoon.ttf?95umm5') format('truetype'),
+		url('fonts/icomoon.svg?95umm5#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-agent:before {
+	content: "\e60c";
+}
+.icon-agents-next:before {
+	content: "\e60a";
+}
+.icon-agents-prev:before {
+	content: "\e60b";
+}
+.icon-arrow-down:before {
+	content: "\e600";
+}
+.icon-arrow-left:before {
+	content: "\e601";
+}
+.icon-arrow-next2:before {
+	content: "\e611";
+}
+.icon-arrow-prev2:before {
+	content: "\e612";
+}
+.icon-arrow-right:before {
+	content: "\e602";
+}
+.icon-arrow-up:before {
+	content: "\e603";
+}
+.icon-close:before {
+	content: "\e604";
+}
+.icon-eye:before {
+	content: "\e614";
+}
+.icon-full-screen:before {
+	content: "\e613";
+}
+.icon-games:before {
+	content: "\e605";
+}
+.icon-key:before {
+	content: "\e60d";
+}
+.icon-key-angle:before {
+	content: "\e50e";
+}
+.icon-shield:before {
+	content: "\e606";
+}
+.icon-shield-os:before {
+	content: "\e510";
+}
+.icon-triangle-down:before {
+	content: "\e615";
+}
+.icon-triangle-left:before {
+	content: "\e616";
+}
+.icon-triangle-right:before {
+	content: "\e617";
+}
+.icon-triangle-up:before {
+	content: "\e618";
+}
+.icon-trophy:before {
+	content: "\e515";
+}
+.icon-video:before {
+	content: "\e607";
+}
+.icon-video-forward:before {
+	content: "\e60e";
+}
+.icon-video-next:before {
+	content: "\e608";
+}
+.icon-video-pause:before {
+	content: "\e619";
+}
+.icon-video-play:before {
+	content: "\e60f";
+}
+.icon-video-prev:before {
+	content: "\e609";
+}
+.icon-video-reverse:before {
+	content: "\e610";
+}

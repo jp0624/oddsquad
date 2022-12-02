@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------------------------------------------------
+                                     GLOBAL STARTS
+----------------------------------------------------------------------------------------------------- */
+
+.slick-track {
+	float: left;
+}
+
+[data-overlay="agentdashboard"] {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+.heightSet.agentdashboard {
+	overflow-y: scroll;
+
+	position: relative;
+	left: 0;
+  	top: 0;
+	-webkit-transform: translate(0,0);
+	-moz-transform: translate(0,0);
+	-ms-transform: translate(0,0);
+	transform: translate(0,0);
+}
+.agentdashboard-genratr {
+	overflow: hidden;
+	background-image: url(/oddsquad/img/agentdashboard/main/bg-main.jpg);
+	background-size: cover;
+	background-position: center center;
+
+}
+.agentdashboard-wrapper {
+	width: 100%;
+	
+	height: calc(100% - 80px);
+	margin-top: 80px;
+
+	position: relative;
+	/*overflow-y: scroll;*/
+}
+.landscape .agentdashboard-wrapper {
+	/*bottom: -10%;*/
+	/*bottom: 0;*/
+}
+.portrait .agentdashboard-wrapper {
+	min-height: 100%;
+}
+.db-floor {
+	position: absolute;
+	left: 50%;
+
+	min-width: 100%;
+	/*-webkit-transform: translateX(-50%);*/
+	
+	-webkit-transform: translate(-50%, 80px);
+	-moz-transform: translate(-50%, 80px);
+	-ms-transform: translate(-50%, 80px);
+	transform: translate(-50%, 80px);
+}
+.portrait .agentdashboard-wrapper > .sizer {
+	padding-top: 155.555555%;
+}
+.landscape .agentdashboard-wrapper > .sizer {
+	/*padding-top: 56.25%;*/
+	padding-top: 47.4%;
+}
+.agentdashboard-wrapper > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/bg-floor.jpg);
+	background-size: 100% auto;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.portrait .agentdashboard-wrapper > .sized {
+	background-size: 650% auto;
+	/*background-position: center calc(100% - -45%);*/
+}
+/* -------------------------------------------------
+	               GLOBAL ENDS
+------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------
+                                     DASHBOARD CAROUSEL STARTS
+----------------------------------------------------------------------------------------------------- */
+.dashboard-carousel {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	float: left;
+  	top: calc(50% - 40px);
+	-webkit-transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	transform: translate(0,-50%);
+	/*
+	background-image: url(/oddsquad/img/agentdashboard/main/door-bottom.png);
+	background-size: auto 100%;
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	*/
+}
+.landscape .dashboard-carousel {
+	/*
+	bottom: 5.7%;
+	top: 50%;
+	*/
+}
+.portrait .dashboard-carousel {
+	/*margin-top: 20%;*/
+	top: 50%;
+	-webkit-transform: translateY(calc(-50% - 40px));
+	-moz-transform: translateY(calc(-50% - 40px));
+	-ms-transform: translateY(calc(-50% - 40px));
+	transform: translateY(calc(-50% - 40px));
+	/*-webkit-transform: translateY(-50%);*/
+}
+.dashboard-carousel .slick-slide {
+	position: relative;
+	//width: 33.33333333333333333%;
+	//float: left;
+	//bottom: 0;
+}
+.dashboard-carousel .slick-slide > .sizer {
+	padding-top: 155.5555555%;
+}
+.dashboard-carousel .slick-slide > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-empty.png);
+	background-size: 100% 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.dashboard-carousel div.agent-profile  > .sized,
+.dashboard-carousel a.door-createagent > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-createagent.png);
+}
+.dashboard-carousel a.door-awards > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-awards.png);
+}
+.dashboard-carousel a.door-wallofagents > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-wallofagents.png);
+}
+.dashboard-carousel a.door-wallofvillains > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-wallofvillains.png);
+}
+.dashboard-carousel a.door-ballroom > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-ballroom.png);
+}
+.dashboard-carousel a.door-oddstagram > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-oddstagram.png);
+}
+.dashboard-carousel a.door-gadget > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-gadget.png);
+}
+.dashboard-carousel a.door-matchinator > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-machinator.png);
+}
+.dashboard-carousel a.door-saloon > .sized {
+	background-image: url(/oddsquad/img/agentdashboard/main/door-saloon.png);
+}
+.dashboard-carousel .slick-slide .door-heading {
+	width: 70%;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.dashboard-carousel .slick-slide .door-heading .sizer {
+	padding-top: 23.893805309734513274336283185841%;
+}
+.dashboard-carousel .slick-slide .door-heading .sized {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(/oddsquad/img/agentdashboard/main/bg-heading.png);
+}
+.dashboard-carousel .slick-slide .door-heading .sized span {
+	white-space: nowrap;
+	font-size: 0.95em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	position: absolute;
+	top: 47.5%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.dashboard-carousel .slick-arrow {
+	z-index: 5;
+}
+.dashboard-carousel .slick-prev {
+	left: 15px;
+}
+.dashboard-carousel .slick-next {
+	right: 15px;
+}
+/* -------------------------------------------------
+	               DASHBOARD CAROUSEL ENDS
+------------------------------------------------- */
+

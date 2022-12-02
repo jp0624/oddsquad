@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'faront';
+    src: url('fonts/faront_normal.eot'); /*IE9 Compat Modes */
+    src: url('fonts/faront_normal.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/faront_normal.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/faront_normal.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/faront_normal.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/faront_normal.svg#faront_normal') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,112 @@
+/* global require, $, console */
+
+require.config( {
+	"baseUrl": "../../../",
+	"alias": {},
+    "debug": true
+});
+
+require.include("weblib/sound/SoundPackage");
+
+var audioData = { "resources": [ "combined.ac3", "combined.mp3", "combined.m4a", "combined.ogg"],
+  "spritemap": {
+    "box-too-full": 		{	"start": 0,		"end": 1.6080045351473924,	"loop": false	},
+    "box_collection": 		{	"start": 3,		"end": 6.005147392290249,	"loop": false	},
+    "collect-in-boxes":		{	"start": 8,		"end": 9.848004535147393,	"loop": false	},
+    "Grps_Gen_1": 			{	"start": 11,	"end": 13.328004535147393,	"loop": false	},
+    "Grps_Gen_10": 			{	"start": 15, 	"end": 18.07201814058957,	"loop": false	},
+    "Grps_Gen_11": 			{	"start": 20, 	"end": 23.336009070294786,	"loop": false	},
+    "Grps_Gen_12": 			{	"start": 25, 	"end": 28.240000000000002,	"loop": false	},
+    "Grps_Gen_2": 			{	"start": 30, 	"end": 36.336009070294786,	"loop": false	},
+    "Grps_Gen_3": 			{	"start": 38, 	"end": 42.17600907029478,	"loop": false	},
+    "Grps_Gen_4": 			{	"start": 44, 	"end": 48.32,      			"loop": false	},
+    "Grps_Gen_5": 			{	"start": 50,	"end": 54.824013605442175,  "loop": false	},
+    "Grps_Gen_6": 			{	"start": 56,	"end": 57.656009070294786,  "loop": false	},
+    "Grps_Gen_7": 			{	"start": 59,	"end": 61.95201814058957,   "loop": false	},
+    "Grps_Gen_8": 			{	"start": 63,	"end": 65.06401360544217,   "loop": false	},
+    "Grps_Gen_9": 			{	"start": 67,	"end": 69.52,				"loop": false	},
+    "Grps_Instrns_1": 		{	"start": 71,	"end": 75.08,				"loop": false	},
+    "Grps_Instrns_2": 		{	"start": 77,	"end": 82.85600907029479,   "loop": false	},
+    "Grps_Instrns_3": 		{	"start": 84,	"end": 87.67201814058957,	"loop": false	},
+    "Grps_Instrns_4": 		{	"start": 89,	"end": 95.19201814058957,	"loop": false	},
+    "Grps_Instrns_5": 		{	"start": 97,	"end": 101.03201814058957,	"loop": false	},
+    "Grps_Instrns_6": 		{	"start": 103,	"end": 109.31201814058957,	"loop": false	},
+    "Grps_Instrns_7": 		{	"start": 111,	"end": 114.6480045351474,	"loop": false	},
+    "Grps_Instrns_8": 		{	"start": 116,	"end": 119.38401360544218,	"loop": false	},
+    "Grps_Math_1": 			{	"start": 121,	"end": 124.16800453514739,	"loop": false	},
+    "Grps_Math_10": 		{	"start": 126,	"end": 128.78401360544217,	"loop": false	},
+    "Grps_Math_11": 		{	"start": 130,	"end": 133.0960090702948,	"loop": false	},
+    "Grps_Math_12": 		{	"start": 135,	"end": 138.21600907029477,	"loop": false	},
+    "Grps_Math_13": 		{	"start": 140,	"end": 142.73600907029478,	"loop": false	},
+    "Grps_Math_14a": 		{	"start": 144,	"end": 146.5680045351474,	"loop": false	},
+    "Grps_Math_14b": 		{	"start": 148,	"end": 150.2560090702948,	"loop": false	},
+    "Grps_Math_15a": 		{	"start": 152,	"end": 154.47201814058957,	"loop": false	},
+    "Grps_Math_15b": 		{	"start": 156,	"end": 158.23201814058956,	"loop": false	},
+    "Grps_Math_16a": 		{	"start": 160,	"end": 162.6880045351474,	"loop": false	},
+    "Grps_Math_16b": 		{	"start": 164,	"end": 166.16,				"loop": false	},
+    "Grps_Math_17a": 		{	"start": 168,	"end": 170.66401360544216,	"loop": false	},
+    "Grps_Math_17b": 		{	"start": 172,	"end": 174.0880045351474,	"loop": false	},
+    "Grps_Math_18a": 		{	"start": 176,	"end": 179.2880045351474,	"loop": false	},
+    "Grps_Math_18b": 		{	"start": 181,	"end": 184.12,				"loop": false	},
+    "Grps_Math_19": 		{	"start": 186,	"end": 188.76,				"loop": false	},
+    "Grps_Math_2": 			{	"start": 190,	"end": 195.30401360544218,	"loop": false	},
+    "Grps_Math_3": 			{	"start": 197,	"end": 200.48,				"loop": false	},
+    "Grps_Math_4": 			{	"start": 202,	"end": 207.49600907029478,	"loop": false	},
+    "Grps_Math_5": 			{	"start": 209,	"end": 213.51201814058956,	"loop": false	},
+    "Grps_Math_6": 			{	"start": 215,	"end": 222.17600907029478,	"loop": false	},
+    "Grps_Math_7": 			{	"start": 224,	"end": 227.19201814058957,	"loop": false	},
+    "Grps_Math_8": 			{	"start": 229,	"end": 232.0960090702948,	"loop": false	},
+    "gurpcollection_01": 	{	"start": 234,	"end": 234.9937188208617,	"loop": false	},
+    "gurpcollection_02": 	{	"start": 236,	"end": 236.75861678004534,	"loop": false	},
+    "gurpcollection_03": 	{	"start": 238,	"end": 239.04596371882087,	"loop": false	},
+    "gurpcollection_04": 	{	"start": 241,	"end": 242.04596371882087,	"loop": false	},
+    "jump": 				{	"start": 244,	"end": 244.10555555555555,	"loop": false	},
+    "jump_01": 				{	"start": 246,	"end": 247.2810657596372,	"loop": false	},
+    "jump_02": 				{	"start": 249,	"end": 250.5945351473923,	"loop": false	},
+    "jump_03": 				{	"start": 252,	"end": 253.62065759637187,	"loop": false	},
+    "jump_04": 				{	"start": 255,	"end": 256.228820861678,	"loop": false	},
+    "level_end": 			{	"start": 258,	"end": 263.5912698412698,	"loop": false	},
+    "level_start": 			{	"start": 265,	"end": 269.0761678004535,	"loop": false	},
+    "silence": 				{	"start": 271,	"end": 272.5161678004535,	"loop": false	},
+    "tutorial-1-arrows": 	{	"start": 274,	"end": 276.0160090702948,	"loop": false	},
+    "tutorial-2-jump": 		{	"start": 278,	"end": 280.0880045351474,	"loop": false	},
+    "tutorial-3-jumpside": 	{	"start": 282,	"end": 284.4480045351474,	"loop": false	},
+    "vacuum_loop": 			{	"start": 286,	"end": 312.72433106575966,	"loop": false	},
+    "walk": 				{	"start": 314,	"end": 314.2884126984127,	"loop": false	}
+  }
+}
+
+var playSecondAudio = function () {
+    // play a high priority, non-looping sound.
+    ss.SoundManager.playSound("Grps_Math_4", ss.SoundPriority.HIGH);
+
+}
+
+var soundDone = function (evt) {
+    // display names of sounds that ended when they ended.
+    console.log(evt.data + " finished");
+}
+
+var soundLoaded = function (evt) {
+    // play a looping, low priority sound.
+	console.log("SOUND LOADED.");
+    //ss.SoundManager.playSound("Grps_Math_3", ss.SoundPriority.LOW, true);
+}
+
+var setupAudio = function (){
+
+    // be sure to add this listener before starting to load.
+    ss.SoundManager.addEventListener("loaded", soundLoaded);
+
+    ss.SoundManager.loadSoundSprite(audioData);
+
+    ss.SoundManager.addEventListener("complete", soundDone);
+
+    $("#tapMe").unbind("mouseup", setupAudio);
+    $("#tapMe").bind("mouseup", playSecondAudio);
+}
+
+$(document).ready( function () {
+    $("#tapMe").mouseup(setupAudio);
+});
+

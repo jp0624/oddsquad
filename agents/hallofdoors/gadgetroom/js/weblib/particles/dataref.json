@@ -1,0 +1,31 @@
+// SAMPLE DATA FOR EMITTER THAT USES SHAPE PARTICLES
+{
+	// The time between spawning each group of particles, in milliseconds.
+	"interval" : 100,
+
+	// The max particle count.
+	"maxCount" : 50,
+
+	// The number to emit in each group of particles.
+	"emitCount" : 1,
+
+	// Definition of the particle:
+
+	// Circle Example:
+	"particle" : { "type": ShapeParticle.CIRCLE, "radius": 10, "fillColour": "#FF0", "strokeColour": "#000"  },
+
+	// Ellipse Example:
+	"particle": { "type": ShapeParticle.ELLIPSE, "width": 10, "height": 20, "fillColour": "#FF0", "strokeColour": "#000" },
+
+	// Rectangle Example:
+	"particle": { "type": ShapeParticle.RECT, "width": 10, "height": 10, "fillColour": "#FF0", "strokeColour": "#000" },
+
+	// Polystar Example:
+	"particle": { "type": ShapeParticle.POLYSTAR, "radius" : 10, "sides": 8, "pointSize": 2, "angle": 1, "fillColour": "#FF0", "strokeColour": "#000"}
+
+
+
+	/* ShapeParticle.ELLIPSE | ShapeParticle.RECT | ShapeParticle.POLYSTAR | ShapeParticle.CUSTOM */
+}
+
+

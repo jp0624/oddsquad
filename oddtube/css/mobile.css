@@ -1,0 +1,63 @@
+/* .mobile #oddtube_container  {
+    left:20px;
+}
+
+.mobile .module {
+    width: 100% !important;
+    left: 0 !important;
+}
+
+.mobile section #video_player, .mobile section #pbs-video-player, .mobile section #oddtube_video_tracking, .mobile section #oddtube_video_control {
+    position: relative;
+    float: left;
+    clear: both;
+    bottom: inherit;
+    top: inherit !important;
+}
+
+.mobile section #video_controls li {
+}
+
+.mobile section #oddtube_video_tracking {
+    width: 100%;
+    padding: 0;
+}
+
+.mobile section #oddtube_video_control {
+    height: 125px;
+}
+
+.mobile #new_video {
+    display: none;
+} 
+
+.mobile #flip_to_activity img {
+    -webkit-transform: translate(-50%, -50%) scale(1.2) !important; 
+    -ms-transform: translate(-50%, -50%) scale(1.2) !important;
+    -moz-transform: translate(-50%, -50%) scale(1.2) !important;
+    transform: translate(-50%, -50%) scale(1.2) !important; 
+}
+
+.mobile #flip_to_activity.hover {
+    -webkit-transform: scale(0.25) !important; 
+    -ms-transform: scale(0.25) !important;
+    -moz-transform:  scale(0.25) !important;
+    transform: scale(0.25) !important; 
+} */
+
+
+body.mobile.has-ugc #flip_to_activity {
+    transition: none !important;
+     left: -8%;
+
+    transition: opacity 0s, left 0.0s;
+
+    opacity: 1;
+}
+
+body.mobile.has-ugc #mobile_ugc_vote_alt {
+    opacity: 1;
+    pointer-events: auto;
+    cursor: pointer;
+    display: block;
+}

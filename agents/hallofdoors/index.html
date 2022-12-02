@@ -1,0 +1,75 @@
+<!doctype html>
+<!--[if IE 9]>     <html class="ie ie9 lte9" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if gt IE 9]>  <html data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if !IE]><!--> <html data-pageGenratr="false" data-activestage="2"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Hall of Doors . Agents . Odd Squad | PBS KIDS</title>
+	<meta name="viewport" content="initial-scale=1">
+
+	<script type="text/javascript" src="//use.typekit.net/nuo4rii.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<script type="text/javascript" src="/oddsquad/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/iscroll-probe.js"></script>
+	<script type="text/javascript" src="/oddsquad/jsnew/functions.global.js"></script>
+	<script type="text/javascript" src="/oddsquad/jsnew/functions.pageGenratr.js"></script>
+
+    <link href="/oddsquad/css/reset.min.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/global.css" rel="stylesheet" type="text/css" />
+    
+	<link href="/oddsquad/css/mobile-tablet.css" rel="stylesheet" type="text/css" media="(min-width: 900px) and (max-width: 1200px)" />
+	<link href="/oddsquad/css/mobile-phone.css" rel="stylesheet" type="text/css" media="(min-width: 0px) and (max-width: 900px)" />
+</head>
+
+<body class="init-overlay load">
+<div class="odd-wrapper">
+    <div data-genratr-wrapper data-genratr-loadfunc="constructDoors">
+        <div data-overlay="hod" class="overlay overlay-green">
+            <nav>
+                <a href="/agents/" class="btn-close" data-genratrTarget="" data-genratr-specFunc="hideOverlay"><span>Close<i></i></span></a>
+                <a href="#" class="btn-next" onClick="gotoScroll('doorsScroll', 'next', 500)"><i></i></a>
+                <a href="#" class="btn-prev" onClick="gotoScroll('doorsScroll', 'prev', 500)"><i></i></a>
+            </nav>
+            <header>
+				<h3>
+                	Hall of Doors
+                </h3>
+                <div class="user-stats doors-stats">
+                    <div class="sizer"></div>
+                    <div class="sized">
+	                    <img src="/oddsquad/img/hexagons/stats-hex.png" class="sized-bg">
+                        <h5>Doors<br />Unlocked</h5>
+                        <span><big class="accnt-rec">#</big><small>of</small><big class="accnt-tot">#</big></span>
+                    </div>
+                </div>
+			</header>
+            <div class="doors-wrapper">
+                <ul class="doors-lst">
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<script type="text/javascript" src="/oddsquad/jsnew/functions.iscroll.js"></script>
+<script type="text/javascript" src="/oddsquad/jsnew/functions.useraccount.js"></script>
+<script type="text/javascript" src="/oddsquad/jsnew/functions.dashboard.js"></script>
+<script type="text/javascript" src="/oddsquad/jsnew/functions.awards.js"></script>
+<script type="text/javascript" src="/oddsquad/js/achievements.js"></script>
+<script type="text/javascript" src="/oddsquad/jsnew/functions.hallofdoors.js"></script>
+<script type="text/javascript" src="/oddsquad/jsnew/functions.init.js"></script>
+<script>
+		$('body').css('display', 'none');
+	$(document).ready(function(){
+		
+		/*! Fades in whole page on load */
+		$('body').fadeIn(250);
+	
+	});
+</script>
+<!--#include virtual="/includes/globalinc.html" -->
+</body>
+</html>

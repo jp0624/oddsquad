@@ -1,0 +1,358 @@
+html,
+body {
+	top: 0;
+}
+html,
+body,
+.odd-wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+}
+[data-overlay] {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.75);
+
+	z-index: -1;
+	opacity: 0;
+}
+.showOverlay[data-overlay] {
+	z-index: 9999;
+	opacity: 1;
+	font-size: 1.25rem;
+}
+.overlay-wrapper {
+	font-size: 0.8em;
+	position: absolute;
+	width: 80%;
+
+	top: 50%;
+	left: 50%;
+	float: left;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.overlay-wrapper > .sizer {
+	padding-top: 38.499587798845836768342951360264%;
+}
+.overlay-wrapper .displayAward {
+	width: 80.626545754328112118713932399011%;
+	left: 0;
+	top: 0;
+}
+.overlay-wrapper .displayAward > .sizer {
+	padding-top: 47.75051124744376278118609406953%;
+}
+.overlay-wrapper .displayAward > .sized {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(/oddsquad/img/overlay/award/bg-main.png);
+}
+.overlay-wrapper .displayAward > .sized .award-banner {
+	width: 65%;
+	left: 50%;
+	top: 10%;
+	font-size: 2.25em;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.overlay-wrapper .displayAward > .sized .award-banner > .sizer {
+	padding-top: 15.422885572139303482587064676617%;
+}
+.overlay-wrapper .displayAward > .sized .award-banner > .sized {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(/oddsquad/img/overlay/award/bg-banner.png);
+}
+.overlay-wrapper .displayAward > .sized .award-banner > .sized  span {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.overlay-wrapper .displayLogin {
+	width: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+/*
+[data-agent-login="true"]
+
+[data-pbs-login="true"]
+
+[data-agent-login="false"]
+
+[data-pbs-login="false"]
+*/
+
+[data-agent-login="true"][data-pbs-login="true"] .overlay-wrapper .displayAward {
+	width: 100%;
+}
+
+[data-agent-login="true"][data-pbs-login="true"] .overlay-wrapper .displayLogin {
+	display: none;
+}
+[data-pbs-login="true"] .overlay-wrapper .displayLogin .btn-ao-signin {
+	display: none;
+}
+.overlay-wrapper .displayLogin > .sizer {
+	padding-top: 198.72340425531914893617021276596%;
+}
+.overlay-wrapper .displayLogin > .sized {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(/oddsquad/img/overlay/award/bg-login.png);
+}
+.overlay-wrapper .displayLogin > .sized h5 {
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	top: 35%;
+	position: absolute;
+	width: 80%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.overlay-wrapper .displayAward > .sized .award-img {
+	float: left;
+	width: 25%;
+	position: absolute;
+	top: 55%;
+	left: 20%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.overlay-wrapper .displayAward > .sized .award-img img {
+	width: 100%;
+}
+.overlay-wrapper .displayAward > .sized .award-info {
+  width: 52.5%;
+  position: absolute;
+  left: 32.5%;
+  top: 25%;
+  height: 62.5%;
+}
+.overlay-wrapper .displayAward > .sized .award-info h4 {
+	color: #00a4da;
+	text-transform: uppercase;
+	font-size: 3.5em;
+}
+.overlay-wrapper .displayAward > .sized .award-info p {
+	color: #fff;
+	font-size: 1.75em;
+	margin: 10px 0;
+}
+.btn-ao {
+	z-index: 3;
+	white-space: nowrap;
+	width: 60%;
+	cursor: pointer;
+	position: absolute;
+	left: 50%;
+	opacity: 1;
+	
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-duration: 300ms;
+	-webkit-transform-origin: center center;
+	-webkit-filter: brightness(1);
+	-webkit-transform: translate(-50%, 0px);
+	
+	-moz-transition-property: all;
+	-moz-transition-timing-function: ease-in-out;
+	-moz-transition-duration: 300ms;
+	-moz-transform-origin: center center;
+	-moz-filter: brightness(1);
+	-moz-transform: translate(-50%, 0px);
+	
+	-ms-transition-property: all;
+	-ms-transition-timing-function: ease-in-out;
+	-ms-transition-duration: 300ms;
+	-ms-transform-origin: center center;
+	-ms-filter: brightness(1);
+	-ms-transform: translate(-50%, 0px);
+	
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 300ms;
+	transform-origin: center center;
+	filter: brightness(1);
+	transform: translate(-50%, 0px);
+}
+.btn-ao:hover {
+  -webkit-filter: brightness(1.5);
+  -moz-filter: brightness(1.5);
+  -ms-filter: brightness(1.5);
+  filter: brightness(1.5);
+}
+.btn-ao-join {
+	top: 45%;
+ }
+.btn-ao-signin {
+	top: 57.5%;
+ }
+.btn-ao .sizer {
+	padding-top: 37.93103448275862%;
+}
+.btn-ao .sized {
+	color: #b51617;
+	text-shadow: 2px 2px 0 rgba(255,255,255,0.3);
+	background-image: url(/oddsquad/img/createagent/btn-yellow.png);
+
+	font-weight: 900;
+	font-size: 0.75em;
+	background-size: 100% 100%;
+	
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-duration: 250ms;
+	-webkit-transform-origin: center 75%;
+	
+	-moz-transition-property: all;
+	-moz-transition-timing-function: ease-in-out;
+	-moz-transition-duration: 250ms;
+	-moz-transform-origin: center 75%;
+	
+	-ms-transition-property: all;
+	-ms-transition-timing-function: ease-in-out;
+	-ms-transition-duration: 250ms;
+	-ms-transform-origin: center 75%;
+	
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 250ms;
+	transform-origin: center 75%;
+}
+.btn-ao .sized span {
+	font-size: 1.5em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-transform: uppercase;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.btn-ao-green {
+  width: 30%;
+  bottom: 0%;
+  right: -15%;
+  left: auto;
+}
+
+
+
+
+/* -----------------------------------------------------------------------------------------------------
+                                     RESPONSIVE STARTS
+----------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1400px){
+
+	[data-overlay="award"] .overlay-wrapper {
+	}
+}
+@media (max-width: 1100px){
+
+	[data-overlay="award"] .overlay-wrapper {
+		font-size: 0.7em;
+	}
+}
+
+@media (max-width: 800px){
+
+	[data-overlay="award"] .overlay-wrapper {
+		font-size: 0.5em;
+	}
+}
+
+@media (max-width: 680px){
+
+	[data-overlay="award"] .overlay-wrapper {
+		width: 90%;
+		font-size: 0.25em;
+	}
+	/*
+	.overlay-wrapper .displayAward {
+		font-size: 0.5em;
+	}
+	.overlay-wrapper .displayLogin {
+		font-size: 0.4em;
+  	}
+  	*/
+}
+/*
+@media (max-width: 900px){
+	.overlay-wrapper .displayLogin {
+		font-size: 0.55em;
+	}
+	[data-overlay="award"] .overlay-wrapper {
+		width: 90%;
+	}
+};
+
+@media (max-width: 900px){
+
+	.overlay-wrapper .displayAward {
+		font-size: 0.5em;
+	}
+	.overlay-wrapper .displayLogin {
+		font-size: 0.55em;
+	}
+
+};
+@media (max-width: 1100px){
+
+	.overlay-wrapper .displayAward {
+		font-size: 0.5em;
+	}
+	.overlay-wrapper .displayLogin {
+		font-size: 0.7em;
+	}
+
+};
+@media (max-width: 1400px){
+
+	.overlay-wrapper .displayAward {
+		font-size: 0.65em;
+	}
+	.overlay-wrapper .displayLogin {
+		font-size: 0.85em;
+	}
+
+};
+*/
+/* -------------------------------------------------
+	               RESPONSIVE ENDS
+------------------------------------------------- */

@@ -1,0 +1,297 @@
+.odd-wrapper,
+[data-overlay="awardroom"] {
+
+    height: 100%;
+}
+[data-overlay="awardroom"] {
+	overflow-y: scroll;
+	background-image: url(/oddsquad/img/global/backgrounds/bg-32.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.awardroom-wrapper {
+	position: relative;
+	width: 100%;
+	float: left;
+	top: 50%;
+  	/*top: calc(50% + 40px);*/
+
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+.awardroom-wrapper > .sizer {
+	padding-top: 46.25%;
+}
+
+.awardroom-wrapper .awardroom-carousel {
+	position: absolute;
+	float: left;
+	width: 100%;
+    top: 55%;
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.awardroom-wrapper .awardroom-carousel .game-panel {
+	opacity: 0.45;
+	position: relative;
+	width: 50%;
+
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel.slick-active {
+	opacity: 1;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .sizer {
+	padding-top: 88%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-heading {
+	position: absolute;
+	top: 2.5%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-heading .sizer {
+  padding-top: 10%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-heading .sized span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+    width: 100%;
+	z-index: 2;
+	font-size: 1.75em;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel {
+    width: 90%;
+    left: 5%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sizer {
+	padding-top: 99.867549668874172185430463576159%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized {
+	background-image: url(/oddsquad/img/awards/award-panelbg.png);
+	background-size: 100% 100%;
+	background-position: center center;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item {
+	position: absolute;
+	width: 22.5%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item > .sizer {
+	padding-top: 103.64583333333333333333333333333%;
+}
+
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:nth-child(1) {
+	top: 35%;
+	left: 35%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:nth-child(2) {
+	top: 35%;
+	left: 65%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:nth-child(3) {
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:nth-child(4) {
+	top: 65%;
+	left: 35%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:nth-child(5) {
+	top: 65%;
+	left: 65%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item > .sized img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item > .sized img.award-game {
+	-webkit-transition: all 200ms ease-out;
+	-webkit-transform: scale3d(0,0,1);
+
+	-moz-transition: all 200ms ease-out;
+	-moz-transform: scale3d(0,0,1);
+
+	-ms-transition: all 200ms ease-out;
+	-ms-transform: scale3d(0,0,1);
+
+	transition: all 200ms ease-out;
+	transform: scale3d(0,0,1);
+
+	opacity: 0;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:not(.award-received):hover > .sized img.award-game {
+	-webkit-transform: scale3d(1,1,1);
+	-moz-transform: scale3d(1,1,1);
+	-ms-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+
+	opacity: 1;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item p {
+	position: absolute;
+	opacity: 0;
+
+	background-color: rgba(0,0,0,0.7);
+	width: 250%;
+	
+	/*
+	height: 65%;
+	*/
+	height: auto;
+	float: left;
+	top: 15%;
+	left: 52.5%;
+
+	color: #fff;
+	font-size: 0.5em;
+	border: 1px solid #b8f9e4;
+	box-shadow: 0px 0px 20px #b8f9e4;
+
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item p {
+
+	-webkit-transform-origin: left center;
+	-webkit-transform: scale3d(0,0,0);
+
+	-moz-transform-origin: left center;
+	-moz-transform: scale3d(0,0,0);
+
+	-ms-transform-origin: left center;
+	-ms-transform: scale3d(0,0,0);
+
+	transform-origin: left center;
+	transform: scale3d(0,0,0);
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:hover p {
+
+	-webkit-transform: scale3d(1,1,1);
+	-moz-transform: scale3d(1,1,1);
+	-ms-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item .award-received,
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item.award-received .award-holder {
+	opacity: 0;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item .award-holder,
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item.award-received img.award-received {
+	opacity: 1;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item p a {
+	position: relative;
+	float: left;
+	/*
+	top: 50%;
+	left: 50%;
+	*/
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	color: #fff;
+	padding: 5% 5% 5% 20%;
+
+	/*
+	-webkit-transform: translate(-50%, -50%) translateZ(0px);
+	-moz-transform: translate(-50%, -50%) translateZ(0px);
+	-ms-transform: translate(-50%, -50%) translateZ(0px);
+	transform: translate(-50%, -50%) translateZ(0px);
+	*/
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item p a span,
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item p a em {
+	width: 100%;
+	float: left;
+	clear: both;
+	text-align: center;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item p a span{
+	font-size: 1.5em;
+	color: #e9a17b;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:hover p {
+	display: block;
+	opacity: 1;
+}
+.awardroom-wrapper .awardroom-carousel .game-panel .award-panel > .sized .award-item:hover {
+	z-index: 3;
+}
+.awardroom-carousel .slick-arrow {
+	width: auto;
+	height: auto;
+	left: auto;
+	right: auto;
+}
+.awardroom-carousel .slick-prev {
+	left: 0;
+	right: auto;
+}
+.awardroom-carousel .slick-next {
+	left: auto;
+	right: 0;
+}
+.awardroom-carousel .slick-prev,
+.awardroom-carousel .slick-next {
+    font-size: 4em;
+	color: #fff;
+	top: 0;
+	position: absolute;
+	z-index: 999;
+	height: 100%;
+	display: block;
+	width: 6%;
+	float: left;
+
+	background-image: none;
+}
+.awardroom-carousel .slick-prev i,
+.awardroom-carousel .slick-next i{
+	position: absolute;
+	left: 50%;
+	text-shadow: 0px 0px 20px #b8f9e4;
+
+	-webkit-transform: translate(-50%,-25%);
+	-moz-transform: translate(-50%,-25%);
+	-ms-transform: translate(-50%,-25%);
+	transform: translate(-50%,-25%);
+}
+.awardroom-carousel .slick-next i:before {
+    content: "\e60a";
+    font-family: 'oddsquad-icons';
+}
+.awardroom-carousel .slick-prev i:before {
+    content: "\e60b";
+    font-family: 'oddsquad-icons';
+}

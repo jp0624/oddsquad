@@ -1,0 +1,1731 @@
+.space-hexs li {
+	width: 100px;
+	height: 56px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%) translateZ(0px);
+	-moz-transform: translate(-50%, -50%) translateZ(0px);
+	-ms-transform: translate(-50%, -50%) translateZ(0px);
+	-o-transform: translate(-50%, -50%) translateZ(0px);
+	transform: translate(-50%, -50%) translateZ(0px);
+}
+.space-hexs li span {
+	display: block;
+	height: 100%;
+	width: 100%;
+
+	background-color: #012a98;
+}
+.space-hexs li span i.top,
+.space-hexs li span i.btm {
+	display: block;
+	width: 100%;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+
+	border-style: solid;
+
+	border-left-width: 50px;
+	border-left-color: transparent;
+
+	border-right-width: 50px;
+	border-right-color: transparent;
+
+	border-top-color: #012a98;
+	border-bottom-color: #012a98;
+}
+.space-hexs li span i.top {
+	top: -28px;
+	border-bottom-width: 28px;
+}
+.space-hexs li span i.btm {
+	bottom: -28px;
+	border-top-width: 28px;
+}
+
+
+/*-------------------------------------------------------------------
+
+                    ------  WEBKIT -----
+
+-------------------------------------------------------------------*/
+
+
+.space-hexs li {
+	opacity:0;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: normal;
+    -webkit-animation-iteration-count: infinite;
+}
+.space-hexs li:nth-child(1),
+.space-hexs li:nth-child(2),
+.space-hexs li:nth-child(3),
+.space-hexs li:nth-child(4),
+.space-hexs li:nth-child(5),
+.space-hexs li:nth-child(6),
+.space-hexs li:nth-child(7),
+.space-hexs li:nth-child(8),
+.space-hexs li:nth-child(9) {
+    -webkit-animation-duration: 2250ms;
+}
+.space-hexs li:nth-child(1) {
+    -webkit-animation-name: hex1, hexFade;
+    -webkit-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(2) {
+    -webkit-animation-name: hex2, hexFade;
+    -webkit-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(3) {
+    -webkit-animation-name: hex3, hexFade;
+    -webkit-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(4) {
+    -webkit-animation-name: hex4, hexFade;
+    -webkit-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(5) {
+    -webkit-animation-name: hex5, hexFade;
+    -webkit-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(6) {
+    -webkit-animation-name: hex6, hexFade;
+    -webkit-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(7) {
+    -webkit-animation-name: hex7, hexFade;
+    -webkit-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(8) {
+    -webkit-animation-name: hex8, hexFade;
+    -webkit-animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(9) {
+    -webkit-animation-name: hex9, hexFade;
+    -webkit-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(11),
+.space-hexs li:nth-child(12),
+.space-hexs li:nth-child(13),
+.space-hexs li:nth-child(14),
+.space-hexs li:nth-child(15),
+.space-hexs li:nth-child(16),
+.space-hexs li:nth-child(17),
+.space-hexs li:nth-child(18),
+.space-hexs li:nth-child(19) {
+    -webkit-animation-duration: 4250ms;
+}
+.space-hexs li:nth-child(11) {
+    -webkit-animation-name: hex11, hexFade2;
+    -webkit-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(12) {
+    -webkit-animation-name: hex12, hexFade2;
+    -webkit-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(13) {
+    -webkit-animation-name: hex13, hexFade2;
+    -webkit-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(14) {
+    -webkit-animation-name: hex14, hexFade2;
+    -webkit-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(15) {
+    -webkit-animation-name: hex15, hexFade2;
+    -webkit-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(16) {
+    -webkit-animation-name: hex16, hexFade2;
+    -webkit-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(17) {
+    -webkit-animation-name: hex17, hexFade2;
+    -webkit-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(18) {
+    -webkit-animation-name: hex18, hexFade2;
+    -webkit-animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(19) {
+    -webkit-animation-name: hex19, hexFade2;
+    -webkit-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(20),
+.space-hexs li:nth-child(21),
+.space-hexs li:nth-child(22),
+.space-hexs li:nth-child(23),
+.space-hexs li:nth-child(24),
+.space-hexs li:nth-child(25),
+.space-hexs li:nth-child(26),
+.space-hexs li:nth-child(27),
+.space-hexs li:nth-child(28) {
+    -webkit-animation-duration: 3250ms;
+}
+.space-hexs li:nth-child(20) {
+    -webkit-animation-name: hex20, hexFade;
+    -webkit-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(21) {
+    -webkit-animation-name: hex21, hexFade;
+    -webkit-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(22) {
+    -webkit-animation-name: hex22, hexFade;
+    -webkit-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(23) {
+    -webkit-animation-name: hex23, hexFade;
+    -webkit-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(24) {
+    -webkit-animation-name: hex24, hexFade;
+    -webkit-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(25) {
+    -webkit-animation-name: hex25, hexFade;
+    -webkit-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(26) {
+    -webkit-animation-name: hex26, hexFade;
+    -webkit-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(27) {
+    -webkit-animation-name: hex27, hexFade;
+    -webkit-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(28) {
+    -webkit-animation-name: hex28, hexFade;
+    -webkit-animation-delay: 1750ms;
+}
+@-webkit-keyframes hexFade {
+    0% {
+		opacity:0;
+		-webkit-transform-origin: center center;
+	}
+    75% {
+		opacity:0.5;
+    }
+    100% {
+		-webkit-transform-origin: center center;
+		opacity:0;
+    }
+}
+@-webkit-keyframes hexFade2 {
+    0% {
+		opacity:0;
+		-webkit-transform-origin: center center;
+	}
+    75% {
+		opacity:0.25;
+    }
+    100% {
+		-webkit-transform-origin: center center;
+		opacity:0;
+    }
+}
+/* -------------------------------------
+        STANDARD SIZE HEXS START
+------------------------------------- */
+@-webkit-keyframes hex1 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1,1) translate(-500%,-250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex2 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1,1) translate(-250%, 500%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex3 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex4 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1.25,1.25) translate(-250%, 100%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex5 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1.5,1.5) translate(50%, -250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex6 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex7 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1.25,1.25) translate(-350%, -250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex8 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(50%, -750%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex9 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    STANDARD SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        SMALL SIZE HEXS START
+------------------------------------- */
+@-webkit-keyframes hex11 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.5,0.5) translate(750%,500%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex12 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.25,0.25) translate(150%, -1050%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex13 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.75,0.75) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex14 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.5,0.5) translate(1500%,750%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex15 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.75,0.75) translate(-1050%, 0%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex16 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.25,0.25) translate(2000%, -250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex17 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.5,0.5) translate(500%,250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex18 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.5,0.5) translate(-2050%, 1000%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex19 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(0.5,0.5) translate(1500%,-750%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    SMALL SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        LARGE SIZE HEXS START
+------------------------------------- */
+@-webkit-keyframes hex20 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(800%,950%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex21 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(-800%,-250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex22 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(-250%, 1500%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex23 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(350%,750%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex24 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(-750%, 800%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex25 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(150%, -750%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex26 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(1500%,1250%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex27 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@-webkit-keyframes hex28 {
+    0% {
+        -webkit-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -webkit-transform: scale(2,2) translate(150%, -1050%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    LARGE SIZE HEXS END
+--------------------------- */
+
+
+
+
+
+
+/*-------------------------------------------------------------------
+
+                    ------  MOZ -----
+
+-------------------------------------------------------------------*/
+
+
+.space-hexs li {
+    opacity:0;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-direction: normal;
+    -moz-animation-iteration-count: infinite;
+}
+.space-hexs li:nth-child(1),
+.space-hexs li:nth-child(2),
+.space-hexs li:nth-child(3),
+.space-hexs li:nth-child(4),
+.space-hexs li:nth-child(5),
+.space-hexs li:nth-child(6),
+.space-hexs li:nth-child(7),
+.space-hexs li:nth-child(8),
+.space-hexs li:nth-child(9) {
+    -moz-animation-duration: 2250ms;
+}
+.space-hexs li:nth-child(1) {
+    -moz-animation-name: hex1, hexFade;
+    -moz-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(2) {
+    -moz-animation-name: hex2, hexFade;
+    -moz-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(3) {
+    -moz-animation-name: hex3, hexFade;
+    -moz-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(4) {
+    -moz-animation-name: hex4, hexFade;
+    -moz-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(5) {
+    -moz-animation-name: hex5, hexFade;
+    -moz-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(6) {
+    -moz-animation-name: hex6, hexFade;
+    -moz-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(7) {
+    -moz-animation-name: hex7, hexFade;
+    -moz-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(8) {
+    -moz-animation-name: hex8, hexFade;
+    -moz-animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(9) {
+    -moz-animation-name: hex9, hexFade;
+    -moz-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(11),
+.space-hexs li:nth-child(12),
+.space-hexs li:nth-child(13),
+.space-hexs li:nth-child(14),
+.space-hexs li:nth-child(15),
+.space-hexs li:nth-child(16),
+.space-hexs li:nth-child(17),
+.space-hexs li:nth-child(18),
+.space-hexs li:nth-child(19) {
+    -moz-animation-duration: 4250ms;
+}
+.space-hexs li:nth-child(11) {
+    -moz-animation-name: hex11, hexFade2;
+    -moz-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(12) {
+    -moz-animation-name: hex12, hexFade2;
+    -moz-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(13) {
+    -moz-animation-name: hex13, hexFade2;
+    -moz-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(14) {
+    -moz-animation-name: hex14, hexFade2;
+    -moz-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(15) {
+    -moz-animation-name: hex15, hexFade2;
+    -moz-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(16) {
+    -moz-animation-name: hex16, hexFade2;
+    -moz-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(17) {
+    -moz-animation-name: hex17, hexFade2;
+    -moz-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(18) {
+    -moz-animation-name: hex18, hexFade2;
+    -moz-animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(19) {
+    -moz-animation-name: hex19, hexFade2;
+    -moz-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(20),
+.space-hexs li:nth-child(21),
+.space-hexs li:nth-child(22),
+.space-hexs li:nth-child(23),
+.space-hexs li:nth-child(24),
+.space-hexs li:nth-child(25),
+.space-hexs li:nth-child(26),
+.space-hexs li:nth-child(27),
+.space-hexs li:nth-child(28) {
+    -moz-animation-duration: 3250ms;
+}
+.space-hexs li:nth-child(20) {
+    -moz-animation-name: hex20, hexFade;
+    -moz-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(21) {
+    -moz-animation-name: hex21, hexFade;
+    -moz-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(22) {
+    -moz-animation-name: hex22, hexFade;
+    -moz-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(23) {
+    -moz-animation-name: hex23, hexFade;
+    -moz-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(24) {
+    -moz-animation-name: hex24, hexFade;
+    -moz-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(25) {
+    -moz-animation-name: hex25, hexFade;
+    -moz-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(26) {
+    -moz-animation-name: hex26, hexFade;
+    -moz-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(27) {
+    -moz-animation-name: hex27, hexFade;
+    -moz-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(28) {
+    -moz-animation-name: hex28, hexFade;
+    -moz-animation-delay: 1750ms;
+}
+@-moz-keyframes hexFade {
+    0% {
+        opacity:0;
+        -moz-transform-origin: center center;
+    }
+    75% {
+        opacity:0.5;
+    }
+    100% {
+        -moz-transform-origin: center center;
+        opacity:0;
+    }
+}
+@-moz-keyframes hexFade2 {
+    0% {
+        opacity:0;
+        -moz-transform-origin: center center;
+    }
+    75% {
+        opacity:0.25;
+    }
+    100% {
+        -moz-transform-origin: center center;
+        opacity:0;
+    }
+}
+/* -------------------------------------
+        STANDARD SIZE HEXS START
+------------------------------------- */
+@-moz-keyframes hex1 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1,1) translate(-500%,-250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex2 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1,1) translate(-250%, 500%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex3 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex4 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1.25,1.25) translate(-250%, 100%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex5 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1.5,1.5) translate(50%, -250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex6 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex7 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1.25,1.25) translate(-350%, -250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex8 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(50%, -750%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex9 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    STANDARD SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        SMALL SIZE HEXS START
+------------------------------------- */
+@-moz-keyframes hex11 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.5,0.5) translate(750%,500%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex12 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.25,0.25) translate(150%, -1050%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex13 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.75,0.75) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex14 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.5,0.5) translate(1500%,750%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex15 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.75,0.75) translate(-1050%, 0%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex16 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.25,0.25) translate(2000%, -250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex17 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.5,0.5) translate(500%,250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex18 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.5,0.5) translate(-2050%, 1000%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex19 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(0.5,0.5) translate(1500%,-750%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    SMALL SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        LARGE SIZE HEXS START
+------------------------------------- */
+@-moz-keyframes hex20 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(800%,950%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex21 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(-800%,-250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex22 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(-250%, 1500%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex23 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(350%,750%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex24 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(-750%, 800%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex25 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(150%, -750%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex26 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(1500%,1250%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex27 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@-moz-keyframes hex28 {
+    0% {
+        -moz-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -moz-transform: scale(2,2) translate(150%, -1050%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    LARGE SIZE HEXS END
+--------------------------- */
+
+
+
+
+
+
+/*-------------------------------------------------------------------
+
+                    ------  MS -----
+
+-------------------------------------------------------------------*/
+
+
+.space-hexs li {
+    opacity:0;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-direction: normal;
+    -ms-animation-iteration-count: infinite;
+}
+.space-hexs li:nth-child(1),
+.space-hexs li:nth-child(2),
+.space-hexs li:nth-child(3),
+.space-hexs li:nth-child(4),
+.space-hexs li:nth-child(5),
+.space-hexs li:nth-child(6),
+.space-hexs li:nth-child(7),
+.space-hexs li:nth-child(8),
+.space-hexs li:nth-child(9) {
+    -ms-animation-duration: 2250ms;
+}
+.space-hexs li:nth-child(1) {
+    -ms-animation-name: hex1, hexFade;
+    -ms-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(2) {
+    -ms-animation-name: hex2, hexFade;
+    -ms-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(3) {
+    -ms-animation-name: hex3, hexFade;
+    -ms-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(4) {
+    -ms-animation-name: hex4, hexFade;
+    -ms-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(5) {
+    -ms-animation-name: hex5, hexFade;
+    -ms-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(6) {
+    -ms-animation-name: hex6, hexFade;
+    -ms-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(7) {
+    -ms-animation-name: hex7, hexFade;
+    -ms-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(8) {
+    -ms-animation-name: hex8, hexFade;
+    -ms-animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(9) {
+    -ms-animation-name: hex9, hexFade;
+    -ms-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(11),
+.space-hexs li:nth-child(12),
+.space-hexs li:nth-child(13),
+.space-hexs li:nth-child(14),
+.space-hexs li:nth-child(15),
+.space-hexs li:nth-child(16),
+.space-hexs li:nth-child(17),
+.space-hexs li:nth-child(18),
+.space-hexs li:nth-child(19) {
+    -ms-animation-duration: 4250ms;
+}
+.space-hexs li:nth-child(11) {
+    -ms-animation-name: hex11, hexFade2;
+    -ms-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(12) {
+    -ms-animation-name: hex12, hexFade2;
+    -ms-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(13) {
+    -ms-animation-name: hex13, hexFade2;
+    -ms-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(14) {
+    -ms-animation-name: hex14, hexFade2;
+    -ms-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(15) {
+    -ms-animation-name: hex15, hexFade2;
+    -ms-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(16) {
+    -ms-animation-name: hex16, hexFade2;
+    -ms-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(17) {
+    -ms-animation-name: hex17, hexFade2;
+    -ms-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(18) {
+    -ms-animation-name: hex18, hexFade2;
+    -ms-animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(19) {
+    -ms-animation-name: hex19, hexFade2;
+    -ms-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(20),
+.space-hexs li:nth-child(21),
+.space-hexs li:nth-child(22),
+.space-hexs li:nth-child(23),
+.space-hexs li:nth-child(24),
+.space-hexs li:nth-child(25),
+.space-hexs li:nth-child(26),
+.space-hexs li:nth-child(27),
+.space-hexs li:nth-child(28) {
+    -ms-animation-duration: 3250ms;
+}
+.space-hexs li:nth-child(20) {
+    -ms-animation-name: hex20, hexFade;
+    -ms-animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(21) {
+    -ms-animation-name: hex21, hexFade;
+    -ms-animation-delay: 0ms;
+}
+.space-hexs li:nth-child(22) {
+    -ms-animation-name: hex22, hexFade;
+    -ms-animation-delay: 250ms;
+}
+.space-hexs li:nth-child(23) {
+    -ms-animation-name: hex23, hexFade;
+    -ms-animation-delay: 500ms;
+}
+.space-hexs li:nth-child(24) {
+    -ms-animation-name: hex24, hexFade;
+    -ms-animation-delay: 750ms;
+}
+.space-hexs li:nth-child(25) {
+    -ms-animation-name: hex25, hexFade;
+    -ms-animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(26) {
+    -ms-animation-name: hex26, hexFade;
+    -ms-animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(27) {
+    -ms-animation-name: hex27, hexFade;
+    -ms-animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(28) {
+    -ms-animation-name: hex28, hexFade;
+    -ms-animation-delay: 1750ms;
+}
+@-ms-keyframes hexFade {
+    0% {
+        opacity:0;
+        -ms-transform-origin: center center;
+    }
+    75% {
+        opacity:0.5;
+    }
+    100% {
+        -ms-transform-origin: center center;
+        opacity:0;
+    }
+}
+@-ms-keyframes hexFade2 {
+    0% {
+        opacity:0;
+        -ms-transform-origin: center center;
+    }
+    75% {
+        opacity:0.25;
+    }
+    100% {
+        -ms-transform-origin: center center;
+        opacity:0;
+    }
+}
+/* -------------------------------------
+        STANDARD SIZE HEXS START
+------------------------------------- */
+@-ms-keyframes hex1 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1,1) translate(-500%,-250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex2 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1,1) translate(-250%, 500%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex3 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex4 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1.25,1.25) translate(-250%, 100%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex5 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1.5,1.5) translate(50%, -250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex6 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex7 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1.25,1.25) translate(-350%, -250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex8 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(50%, -750%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex9 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    STANDARD SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        SMALL SIZE HEXS START
+------------------------------------- */
+@-ms-keyframes hex11 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.5,0.5) translate(750%,500%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex12 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.25,0.25) translate(150%, -1050%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex13 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.75,0.75) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex14 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.5,0.5) translate(1500%,750%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex15 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.75,0.75) translate(-1050%, 0%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex16 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.25,0.25) translate(2000%, -250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex17 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.5,0.5) translate(500%,250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex18 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.5,0.5) translate(-2050%, 1000%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex19 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(0.5,0.5) translate(1500%,-750%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    SMALL SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        LARGE SIZE HEXS START
+------------------------------------- */
+@-ms-keyframes hex20 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(800%,950%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex21 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(-800%,-250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex22 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(-250%, 1500%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex23 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(350%,750%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex24 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(-750%, 800%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex25 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(150%, -750%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex26 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(1500%,1250%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex27 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@-ms-keyframes hex28 {
+    0% {
+        -ms-transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        -ms-transform: scale(2,2) translate(150%, -1050%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    LARGE SIZE HEXS END
+--------------------------- */
+
+
+
+
+/*-------------------------------------------------------------------
+
+                    ------  WEBKIT -----
+
+-------------------------------------------------------------------*/
+
+
+.space-hexs li {
+    opacity:0;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+.space-hexs li:nth-child(1),
+.space-hexs li:nth-child(2),
+.space-hexs li:nth-child(3),
+.space-hexs li:nth-child(4),
+.space-hexs li:nth-child(5),
+.space-hexs li:nth-child(6),
+.space-hexs li:nth-child(7),
+.space-hexs li:nth-child(8),
+.space-hexs li:nth-child(9) {
+    animation-duration: 2250ms;
+}
+.space-hexs li:nth-child(1) {
+    animation-name: hex1, hexFade;
+    animation-delay: 0ms;
+}
+.space-hexs li:nth-child(2) {
+    animation-name: hex2, hexFade;
+    animation-delay: 250ms;
+}
+.space-hexs li:nth-child(3) {
+    animation-name: hex3, hexFade;
+    animation-delay: 500ms;
+}
+.space-hexs li:nth-child(4) {
+    animation-name: hex4, hexFade;
+    animation-delay: 750ms;
+}
+.space-hexs li:nth-child(5) {
+    animation-name: hex5, hexFade;
+    animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(6) {
+    animation-name: hex6, hexFade;
+    animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(7) {
+    animation-name: hex7, hexFade;
+    animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(8) {
+    animation-name: hex8, hexFade;
+    animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(9) {
+    animation-name: hex9, hexFade;
+    animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(11),
+.space-hexs li:nth-child(12),
+.space-hexs li:nth-child(13),
+.space-hexs li:nth-child(14),
+.space-hexs li:nth-child(15),
+.space-hexs li:nth-child(16),
+.space-hexs li:nth-child(17),
+.space-hexs li:nth-child(18),
+.space-hexs li:nth-child(19) {
+    animation-duration: 4250ms;
+}
+.space-hexs li:nth-child(11) {
+    animation-name: hex11, hexFade2;
+    animation-delay: 0ms;
+}
+.space-hexs li:nth-child(12) {
+    animation-name: hex12, hexFade2;
+    animation-delay: 250ms;
+}
+.space-hexs li:nth-child(13) {
+    animation-name: hex13, hexFade2;
+    animation-delay: 500ms;
+}
+.space-hexs li:nth-child(14) {
+    animation-name: hex14, hexFade2;
+    animation-delay: 750ms;
+}
+.space-hexs li:nth-child(15) {
+    animation-name: hex15, hexFade2;
+    animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(16) {
+    animation-name: hex16, hexFade2;
+    animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(17) {
+    animation-name: hex17, hexFade2;
+    animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(18) {
+    animation-name: hex18, hexFade2;
+    animation-delay: 1750ms;
+}
+.space-hexs li:nth-child(19) {
+    animation-name: hex19, hexFade2;
+    animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(20),
+.space-hexs li:nth-child(21),
+.space-hexs li:nth-child(22),
+.space-hexs li:nth-child(23),
+.space-hexs li:nth-child(24),
+.space-hexs li:nth-child(25),
+.space-hexs li:nth-child(26),
+.space-hexs li:nth-child(27),
+.space-hexs li:nth-child(28) {
+    animation-duration: 3250ms;
+}
+.space-hexs li:nth-child(20) {
+    animation-name: hex20, hexFade;
+    animation-delay: 2000ms;
+}
+.space-hexs li:nth-child(21) {
+    animation-name: hex21, hexFade;
+    animation-delay: 0ms;
+}
+.space-hexs li:nth-child(22) {
+    animation-name: hex22, hexFade;
+    animation-delay: 250ms;
+}
+.space-hexs li:nth-child(23) {
+    animation-name: hex23, hexFade;
+    animation-delay: 500ms;
+}
+.space-hexs li:nth-child(24) {
+    animation-name: hex24, hexFade;
+    animation-delay: 750ms;
+}
+.space-hexs li:nth-child(25) {
+    animation-name: hex25, hexFade;
+    animation-delay: 1000ms;
+}
+.space-hexs li:nth-child(26) {
+    animation-name: hex26, hexFade;
+    animation-delay: 1250ms;
+}
+.space-hexs li:nth-child(27) {
+    animation-name: hex27, hexFade;
+    animation-delay: 1500ms;
+}
+.space-hexs li:nth-child(28) {
+    animation-name: hex28, hexFade;
+    animation-delay: 1750ms;
+}
+@keyframes hexFade {
+    0% {
+        opacity:0;
+        transform-origin: center center;
+    }
+    75% {
+        opacity:0.5;
+    }
+    100% {
+        transform-origin: center center;
+        opacity:0;
+    }
+}
+@keyframes hexFade2 {
+    0% {
+        opacity:0;
+        transform-origin: center center;
+    }
+    75% {
+        opacity:0.25;
+    }
+    100% {
+        transform-origin: center center;
+        opacity:0;
+    }
+}
+/* -------------------------------------
+        STANDARD SIZE HEXS START
+------------------------------------- */
+@keyframes hex1 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1,1) translate(-500%,-250%) translateZ(0px);
+    }
+}
+@keyframes hex2 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1,1) translate(-250%, 500%) translateZ(0px);
+    }
+}
+@keyframes hex3 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@keyframes hex4 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1.25,1.25) translate(-250%, 100%) translateZ(0px);
+    }
+}
+@keyframes hex5 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1.5,1.5) translate(50%, -250%) translateZ(0px);
+    }
+}
+@keyframes hex6 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+@keyframes hex7 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1.25,1.25) translate(-350%, -250%) translateZ(0px);
+    }
+}
+@keyframes hex8 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(50%, -750%) translateZ(0px);
+    }
+}
+@keyframes hex9 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(1,1) translate(500%,250%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    STANDARD SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        SMALL SIZE HEXS START
+------------------------------------- */
+@keyframes hex11 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.5,0.5) translate(750%,500%) translateZ(0px);
+    }
+}
+@keyframes hex12 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.25,0.25) translate(150%, -1050%) translateZ(0px);
+    }
+}
+@keyframes hex13 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.75,0.75) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@keyframes hex14 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.5,0.5) translate(1500%,750%) translateZ(0px);
+    }
+}
+@keyframes hex15 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.75,0.75) translate(-1050%, 0%) translateZ(0px);
+    }
+}
+@keyframes hex16 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.25,0.25) translate(2000%, -250%) translateZ(0px);
+    }
+}
+@keyframes hex17 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.5,0.5) translate(500%,250%) translateZ(0px);
+    }
+}
+@keyframes hex18 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.5,0.5) translate(-2050%, 1000%) translateZ(0px);
+    }
+}
+@keyframes hex19 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(0.5,0.5) translate(1500%,-750%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    SMALL SIZE HEXS END
+--------------------------- */
+
+/* -------------------------------------
+        LARGE SIZE HEXS START
+------------------------------------- */
+@keyframes hex20 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(800%,950%) translateZ(0px);
+    }
+}
+@keyframes hex21 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(-800%,-250%) translateZ(0px);
+    }
+}
+@keyframes hex22 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(-250%, 1500%) translateZ(0px);
+    }
+}
+@keyframes hex23 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(350%,750%) translateZ(0px);
+    }
+}
+@keyframes hex24 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(-750%, 800%) translateZ(0px);
+    }
+}
+@keyframes hex25 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(150%, -750%) translateZ(0px);
+    }
+}
+@keyframes hex26 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(1500%,1250%) translateZ(0px);
+    }
+}
+@keyframes hex27 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(-750%, -500%) translateZ(0px);
+    }
+}
+@keyframes hex28 {
+    0% {
+        transform: scale(0,0) translate(-50%, -50%) translateZ(0px);
+    }
+    100% {
+        transform: scale(2,2) translate(150%, -1050%) translateZ(0px);
+    }
+}
+/* ---------------------------
+    LARGE SIZE HEXS END
+--------------------------- */

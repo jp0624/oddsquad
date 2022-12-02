@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes rotate {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to { 
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to { 
+    transform: rotate(360deg);
+  }
+}
+
+.odd-wrapper,
+[data-overlay="loading"] {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+[data-overlay="loader"] {
+	z-index: 9999;
+}
+
+.panel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.openLoad .panel {
+    transition: all 2500ms ease-out 500ms;
+    -ms-transition: all 2500ms ease-out 500ms;
+    -moz-transition: all 2500ms ease-out 500ms;
+    -webkit-transition: all 2500ms ease-out 500ms;
+}
+[data-overlay="loader"] {
+	background-color: #30b1e6;
+}
+.openLoad [data-overlay="loader"] {
+	background-color: transparent;
+}
+.panel-mid,
+[data-overlay="loader"] .main-logo {
+	cursor: pointer;
+	position: absolute;
+	top: calc(-222px);
+	left: calc(50% - 196px);
+	z-index: 1;
+	float: left;
+}
+.panel-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+ }
+.openLoad [data-overlay="loader"] .main-logo {
+	-webkit-animation: rotate 500ms  ease-out;
+	-webkit-transform-origin: center center;
+
+	-moz-animation: rotate 500ms  ease-out;
+	-moz-transform-origin: center center;
+
+	-ms-animation: rotate 500ms  ease-out;
+	-ms-transform-origin: center center;
+
+	animation: rotate 500ms  ease-out;
+	transform-origin: center center;
+}
+.openLoad .panel-left {
+	-webkit-transform: translate(-200%, -100%);
+	-moz-transform: translate(-200%, -100%);
+	-ms-transform: translate(-200%, -100%);
+	transform: translate(-200%, -100%);
+
+}
+.openLoad .panel-right {
+	-webkit-transform: translate(200%, -100%);
+	-moz-transform: translate(200%, -100%);
+	-ms-transform: translate(200%, -100%);
+	transform: translate(200%, -100%);
+
+}
+.openLoad .panel-btm {
+	-webkit-transform: translate(0%, 100%);
+	-moz-transform: translate(0%, 100%);
+	-ms-transform: translate(0%, 100%);
+	transform: translate(0%, 100%);
+
+}

@@ -1,0 +1,102 @@
+.mobile {
+
+}
+
+.mobile #gadget-wrapper #perspective_grid {
+	background: url("../images/ui/perspective-grid-mobile.png");
+	width: 704px;
+	height: 534px;
+	margin: 150px 0 0 0;
+}
+
+.mobile #scroll_text_1, .mobile #scroll_text_2, .mobile #scroll_text_3, .mobile #information_grid, .mobile #chart_node, .mobile #information_bottom_left, .mobile #measurements, .mobile #most_used_by, .mobile #diagram_faded {
+	display: none;
+}
+
+.mobile #tile_grid_wrapper {
+	background-color: #031b1b;
+	margin: 40px 0 0 0;
+	padding: 18px 0 18px 18px;
+	border: 1px solid rgba(0,255,255,0.4);
+	width: 80%;
+	max-width: 630px;
+	left: 50%;
+	-ms-transform: translate(-50%,0); /* IE 9 */
+   	-webkit-transform: translate(-50%,0); /* Chrome, Safari, Opera */
+    transform: translate(-50%,0);
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position: absolute;
+	top: 40px;
+}
+
+	.mobile #tile_grid_wrapper ul#tile_grid {
+		width: 100%;
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0;
+	}
+
+	.mobile #tile_grid_wrapper #button_wrapper {
+		position: relative;
+		height: 35px;
+		clear: both;
+		width: 100%;
+		float: left;
+	}
+
+	.mobile #tile_grid_wrapper #close_grid, .mobile #tile_grid_wrapper #open_grid {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		font-size: 35px;
+		display: block;
+		
+		-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    	transition: opacity 1s;
+    	position: absolute;
+	}
+
+		.mobile #tile_grid_wrapper.open #close_grid {
+			-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+	    	transition: opacity 1s;
+	    	opacity: 1;
+		}
+		
+		.mobile #tile_grid_wrapper.open #open_grid {
+			-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+	    	transition: opacity 1s;
+	    	opacity: 0;
+		}
+
+		.mobile #tile_grid_wrapper.closed #close_grid {
+			-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+	    	transition: opacity 1s;
+	    	opacity: 0;
+		}
+		
+		.mobile #tile_grid_wrapper.closed #open_grid {
+			-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+	    	transition: opacity 1s;
+	    	opacity: 1;
+		}
+	
+
+	.mobile #tile_grid_wrapper #open_grid {
+		-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    	transition: opacity 1s;
+    }
+
+		.mobile #tile_grid_wrapper #close_grid img, .mobile #tile_grid_wrapper #open_grid img {
+			margin: -40px 0 0 -125px;
+			left: 50%;
+			position: absolute;
+			top: 50%;
+			cursor: pointer;
+		}
+
+	.mobile #tile_grid_wrapper #close_grid {
+			opacity: 0;
+	}

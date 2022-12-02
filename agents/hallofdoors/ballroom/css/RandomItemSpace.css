@@ -1,0 +1,17 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:7f1374fb8dfd36a9613b2c82bd66a549:ae54c993dcee223dd554117b8992e1ae:159e9b89e270d692979f97240ef4ccaa$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+.cubes2 {width:290px; height:321px; background-position: -222px -1242px;background-image:url('../img/RandomItemSpace.png')}
+.lensflare {width:1240px; height:1238px; background-position: -2px -2px;background-image:url('../img/RandomItemSpace.png')}
+.shape_100 {width:310px; height:308px; background-position: -514px -1242px;background-image:url('../img/RandomItemSpace.png')}
+.shape_200 {width:369px; height:221px; background-position: -826px -1242px;background-image:url('../img/RandomItemSpace.png')}
+.star_100 {width:114px; height:114px; background-position: -826px -1465px;background-image:url('../img/RandomItemSpace.png')}
+.triangle_colour {width:218px; height:367px; background-position: -2px -1242px;background-image:url('../img/RandomItemSpace.png')}

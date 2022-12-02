@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: #000 url(../img/temp/temp-bg.jpg);
+}
+[data-pbs-login="true"][agent-login="true"] .classified-wrapper {
+	display: none !important;
+}
+.classified-wrapper,
+.shield {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.shield {
+	background: rgba(0,0,0,0.75);
+}
+.classified-block {
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -25%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.classified-block > .sizer {
+	padding-top: 40%;
+	
+}
+.classified-wrapper figure {
+	display: block;
+	width: 24%;
+	position: relative;
+	float: left;
+	margin-left: -10%;
+	background-image: url(../img/global/light-animation.png);
+	background-size: auto 100%;
+	background-position: 0px 0px;
+}
+.classified-wrapper figure .sizer {
+	position: relative;
+	width: 100%;
+	padding-top: 85%
+}
+
+.classified-wrapper .sized img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+.classified-wrapper .sized .lights {
+	position: absolute;
+	top: 3.5%;
+	z-index: 100;
+	width: 60%;
+	left: 30%;
+}
+.classified-wrapper .sized .lights-bottom {
+	top: 61%;
+}
+.classified-wrapper .sized .lights-bottom figure {
+	-webkit-transform: rotate(180deg)
+}
+.classified-wrapper .message {
+	width: 55%;
+	left: 30%;
+	top: 35%;
+	font-size: 1.5em;
+	text-align: center;
+}
+.classified-wrapper .message h5 {
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5)
+}
+.classified-wrapper .message p {
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #ffcd00;
+	font-size: 0.25em;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5)
+}
+.classified-wrapper nav {
+	width: 100%;
+	position: absolute;
+	bottom: -30%;
+}
+.classified-wrapper nav a {
+	float: left;
+}
+.classified-wrapper .btn-green,
+.classified-wrapper .btn-grey {
+	width: 45%;
+	margin: 0 2.5%;
+	position: relative;
+	display: block;
+}
+.btn-green .sized span,
+.btn-grey .sized span {
+	font-size: 0.75em;
+}
